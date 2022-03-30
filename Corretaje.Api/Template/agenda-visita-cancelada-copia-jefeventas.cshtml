@@ -1,0 +1,47 @@
+﻿@using Corretaje.Api.Dto.Agenda
+
+@model VisitaUsuarioEmailDto
+
+<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; width: 600px;">
+    <tr id="visita-fotografo">
+        <td valign="middle" class="bg_white" style="height: 400px;">
+            <table>
+                <tr>
+                    <td>
+                        <div class="box-cont text-center">
+                            <h2>¡Vista Cancelada!</h2>
+                            <div class="cont-img"><img src="https://propiblobstorage.blob.core.windows.net/mails/images/fotografo.png" alt="" style="border: none;"></div>
+                            <p>
+                                Se ha cancelado una hora de visita correspondiente al día @Model.Fecha a las @Model.HoraInicio hrs.
+                            </p>
+                            <h3>Datos del visitante</h3>
+                            <p>
+                                <ul>
+                                    <li><strong>Don(a):</strong> @Model.NombreUsuario</li>
+                                    <li><strong>R.U.T:</strong> @Model.Rut</li>
+                                    <li><strong>Teléfono</strong> @Model.Telefono</li>
+                                    <li><strong>E-mail:</strong> @Model.Email</li>
+                                </ul>
+                            </p>
+                            <h3>Datos del propietario</h3>
+                            <p>
+                                <ul>
+                                    <li><strong>Don(a):</strong> @Model.NombreCliente</li>
+                                    <li><strong>R.U.T:</strong> @Model.RutCliente</li>
+                                    <li><strong>Teléfono</strong> @Model.TelefonoCliente</li>
+                                    <li><strong>E-mail:</strong> @Model.EmailCliente</li>
+                                </ul>
+                            </p>
+                            <h3>Datos de la propiedad</h3>
+                            <p>
+                                <ul>
+                                    <li><strong>Dirección:</strong> @Model.Direccion</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

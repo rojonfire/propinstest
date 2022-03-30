@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="291" height="291" viewBox="0 0 291 291">
+  <g id="close-chat" transform="translate(-218.315 -150.234)">
+    <g id="Grupo_375" data-name="Grupo 375" transform="translate(163.877 102.301)">
+      <g id="Grupo_364" data-name="Grupo 364" transform="translate(3.581)">
+        <circle id="Elipse_34" data-name="Elipse 34" cx="145.5" cy="145.5" r="145.5" transform="translate(50.858 47.933)" fill="#3c3b3b"/>
+        <g id="icon-close-white" transform="translate(129.267 139.067)">
+          <g id="noun_Error_1892739" transform="translate(24.705 10.746)">
+            <path id="Trazado_1711" data-name="Trazado 1711" d="M62.24,51.858,93.418,20.714a3.705,3.705,0,0,0,0-5.207L88.21,10.3A3.705,3.705,0,0,0,83,10.3L51.858,41.477,20.714,10.3a3.705,3.705,0,0,0-5.207,0L10.3,15.506a3.705,3.705,0,0,0,0,5.207L41.477,51.858,10.3,83a3.705,3.705,0,0,0,0,5.207l5.207,5.207a3.705,3.705,0,0,0,5.207,0L51.858,62.24,83,93.418a3.705,3.705,0,0,0,5.207,0l5.207-5.207a3.705,3.705,0,0,0,0-5.207Z" transform="translate(-9.23 -9.23)" fill="#fff" stroke="#fff" stroke-width="5"/>
+          </g>
+          <rect id="Rectángulo_1204" data-name="Rectángulo 1204" width="116" height="114.532" transform="translate(9.091 -3.4)" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

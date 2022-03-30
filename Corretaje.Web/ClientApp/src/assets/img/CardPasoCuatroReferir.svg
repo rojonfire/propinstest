@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="339" viewBox="0 0 244 339">
+  <g id="Grupo_2559" data-name="Grupo 2559" transform="translate(14626 -11503)">
+    <rect id="Rectángulo_2260" data-name="Rectángulo 2260" width="244" height="339" transform="translate(-14626 11503)" fill="#f5f5f5"/>
+    <g id="Grupo_2554" data-name="Grupo 2554" transform="translate(-14558 11750.091)">
+      <g id="Grupo_2460" data-name="Grupo 2460" transform="translate(27.954 0)">
+        <path id="Trazado_51" data-name="Trazado 51" d="M-1248.359,675.425v22.743h14.933v-5.045s1.674-4.49,5.6-4.561,5.683,4.351,5.683,4.351v5.255h15.156V675.425h4.631l-10.236-11.041v-11.4h2.167v-2.736h-9.052v2.175h1.614v5.333l-9.473-10.876-25.4,28.435Z" transform="translate(1252.731 -646.883)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectángulo_2225" data-name="Rectángulo 2225" width="3.697" height="3.697" transform="translate(8.995 30.732)" fill="#48999a"/>
+        <rect id="Rectángulo_2226" data-name="Rectángulo 2226" width="3.697" height="3.697" transform="translate(8.995 36.797)" fill="#48999a"/>
+        <rect id="Rectángulo_2227" data-name="Rectángulo 2227" width="3.697" height="3.697" transform="translate(15.905 30.732)" fill="#48999a"/>
+        <rect id="Rectángulo_2228" data-name="Rectángulo 2228" width="3.697" height="3.697" transform="translate(15.905 36.797)" fill="#48999a"/>
+        <rect id="Rectángulo_2229" data-name="Rectángulo 2229" width="3.697" height="3.697" transform="translate(31.139 30.689)" fill="#48999a"/>
+        <rect id="Rectángulo_2230" data-name="Rectángulo 2230" width="3.697" height="3.697" transform="translate(31.139 36.755)" fill="#48999a"/>
+        <rect id="Rectángulo_2231" data-name="Rectángulo 2231" width="3.697" height="3.697" transform="translate(38.049 30.689)" fill="#48999a"/>
+        <rect id="Rectángulo_2232" data-name="Rectángulo 2232" width="3.697" height="3.697" transform="translate(38.049 36.755)" fill="#48999a"/>
+      </g>
+      <g id="Grupo_2461" data-name="Grupo 2461" transform="translate(46.124 56.414)">
+        <g id="Grupo_2462" data-name="Grupo 2462" transform="translate(0 0)">
+          <g id="Elipse_37" data-name="Elipse 37" fill="none" stroke="#48999a" stroke-width="1">
+            <circle cx="7.687" cy="7.687" r="7.687" stroke="none"/>
+            <circle cx="7.687" cy="7.687" r="7.187" fill="none"/>
+          </g>
+          <text id="_2" data-name="2" transform="translate(4.892 2.795)" fill="#48999a" font-size="10" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="9">2</tspan></text>
+        </g>
+        <g id="Grupo_2464" data-name="Grupo 2464" transform="translate(46.124 0)">
+          <g id="Elipse_37-2" data-name="Elipse 37" fill="none" stroke="#48999a" stroke-width="1">
+            <circle cx="7.687" cy="7.687" r="7.687" stroke="none"/>
+            <circle cx="7.687" cy="7.687" r="7.187" fill="none"/>
+          </g>
+          <text id="_3" data-name="3" transform="translate(4.892 2.795)" fill="#48999a" font-size="10" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="9">3</tspan></text>
+        </g>
+      </g>
+      <line id="Línea_73" data-name="Línea 73" x2="31.448" transform="translate(15.025 64.451)" fill="none" stroke="#48999a" stroke-width="1"/>
+      <line id="Línea_74" data-name="Línea 74" x2="31.448" transform="translate(61.149 64.451)" fill="none" stroke="#48999a" stroke-width="1"/>
+      <g id="Grupo_2439" data-name="Grupo 2439" transform="translate(0 57.113)">
+        <circle id="Elipse_13" data-name="Elipse 13" cx="7.687" cy="7.687" r="7.687" transform="translate(0)" fill="#48999a"/>
+        <path id="Path" d="M0,2.868l.773-.744L2.762,4.036,6.96,0l.773.744L2.762,5.523Z" transform="translate(4.129 4.955)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_2547" data-name="Grupo 2547" transform="translate(-14534.436 11529)">
+      <circle id="Elipse_37-3" data-name="Elipse 37" cx="30" cy="30" r="30" transform="translate(0.436)" fill="#48999a"/>
+    </g>
+  </g>
+</svg>

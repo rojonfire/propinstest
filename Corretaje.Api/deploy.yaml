@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: __name__
+  labels:
+    key1: __EnvironmentName__
+spec:
+  replicas: __replicas__
+  selector:
+    matchLabels:
+      app: __name__
+  template:
+    metadata:
+      labels:
+        app: __name__
+    spec:
+      containers:
+        - name: __name__
+          image: __acr__:__buildid__
+          resources:
+            requests:
+              cpu: __cpu__
+              memory: __memory__
+          ports:
+            - containerPort: __containerPort__
+          env:
+            - name: PODNAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: ASPNETCORE_ENVIRONMENT
+              value: __enviroment__
+            - name: REACT_APP_ENV
+              value: __enviromentNode__
+            - name: NODE_ENV
+              value: __enviromentNode__
+      imagePullSecrets:
+        - name: __secret__
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: __name__
+spec:
+  type: LoadBalancer
+  ports:
+    - port: __port__
+      targetPort: __containerPort__
+  selector:
+    app: __name__

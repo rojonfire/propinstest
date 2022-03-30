@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 382 487">
+  <g id="Grupo_2315" data-name="Grupo 2315" transform="translate(-555 -494)">
+    <rect id="Rectángulo_2141" data-name="Rectángulo 2141" width="382" height="439" rx="57" transform="translate(555 542)" fill="rgba(216,232,222,0.92)"/>
+    <circle id="Elipse_38" data-name="Elipse 38" cx="109.5" cy="109.5" r="109.5" transform="translate(637 494)" fill="#f5f5f5"/>
+    <g id="Grupo_2304" data-name="Grupo 2304" transform="translate(675 553)">
+      <path id="Trazado_77" data-name="Trazado 77" d="M25.05,30.357V20H140.443v81.718H126.394" transform="translate(0.605 -20)" fill="none" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="Rectángulo_2132" data-name="Rectángulo 2132" width="115.393" height="81.691" transform="translate(0 19.015)" stroke-width="3" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path id="Trazado_78" data-name="Trazado 78" d="M19.76,32.558V23.9H135.153v81.691H123.547" transform="translate(-8.154 -13.542)" fill="none" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_79" data-name="Trazado 79" stroke="#00a72c" d="M52.288,32.04,28.2,57.881H76.641Z" fill="none" transform="translate(5.82 -0.065)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill-rule="evenodd"/>
+      <rect id="Rectángulo_2133" data-name="Rectángulo 2133" width="41.218" height="29.957" transform="translate(37.632 57.843)" stroke-width="3" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <rect id="Rectángulo_2134" data-name="Rectángulo 2134" width="12.163" height="19.122" transform="translate(52.159 68.652)" stroke-width="3" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path id="Trazado_80" data-name="Trazado 80" stroke="#00a72c" d="M47.184,47.666V34.52H42.51v8.419" fill="none" transform="translate(29.515 4.042)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill-rule="evenodd"/>
+      <circle id="Elipse_32" data-name="Elipse 32" cx="5.71" cy="5.71" r="5.71" transform="translate(12.482 28.948)" stroke-width="3" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="339" viewBox="0 0 244 339">
+  <g id="Grupo_2558" data-name="Grupo 2558" transform="translate(14904 -11503)">
+    <rect id="Rectángulo_2259" data-name="Rectángulo 2259" width="244" height="339" transform="translate(-14904 11503)" fill="#f5f5f5"/>
+    <g id="Grupo_2553" data-name="Grupo 2553" transform="translate(-14848 11754.283)">
+      <g id="Grupo_2454" data-name="Grupo 2454" transform="translate(0 5.783)">
+        <path id="Trazado_51" data-name="Trazado 51" d="M-1248.359,675.425v22.743h14.933v-5.045s1.674-4.49,5.6-4.561,5.683,4.351,5.683,4.351v5.255h15.156V675.425h4.631l-10.236-11.041v-11.4h2.167v-2.736h-9.052v2.175h1.614v5.333l-9.473-10.876-25.4,28.435Z" transform="translate(1252.731 -646.883)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectángulo_2225" data-name="Rectángulo 2225" width="3.697" height="3.697" transform="translate(8.995 30.732)" fill="#48999a"/>
+        <rect id="Rectángulo_2226" data-name="Rectángulo 2226" width="3.697" height="3.697" transform="translate(8.995 36.797)" fill="#48999a"/>
+        <rect id="Rectángulo_2227" data-name="Rectángulo 2227" width="3.697" height="3.697" transform="translate(15.905 30.732)" fill="#48999a"/>
+        <rect id="Rectángulo_2228" data-name="Rectángulo 2228" width="3.697" height="3.697" transform="translate(15.905 36.797)" fill="#48999a"/>
+        <rect id="Rectángulo_2229" data-name="Rectángulo 2229" width="3.697" height="3.697" transform="translate(31.139 30.689)" fill="#48999a"/>
+        <rect id="Rectángulo_2230" data-name="Rectángulo 2230" width="3.697" height="3.697" transform="translate(31.139 36.755)" fill="#48999a"/>
+        <rect id="Rectángulo_2231" data-name="Rectángulo 2231" width="3.697" height="3.697" transform="translate(38.049 30.689)" fill="#48999a"/>
+        <rect id="Rectángulo_2232" data-name="Rectángulo 2232" width="3.697" height="3.697" transform="translate(38.049 36.755)" fill="#48999a"/>
+      </g>
+      <g id="Grupo_2456" data-name="Grupo 2456" transform="translate(84.036 0)">
+        <path id="Trazado_53" data-name="Trazado 53" d="M0,0H9.284L9.268,18.648H.049Z" transform="translate(10.301 32.015)" fill="none" stroke="#48999a" stroke-width="2"/>
+        <rect id="Rectángulo_2234" data-name="Rectángulo 2234" width="9.073" height="10.986" transform="translate(28.296 30.104)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_52" data-name="Trazado 52" d="M-1070.55,683.911v-28.2l-2.669,2.669-2.707-2.707,24.023-22.519,24.662,22.782-2.707,1.88-3.459-2.632v28.722Z" transform="translate(1075.926 -633.158)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Elipse_49" data-name="Elipse 49" cx="3.74" cy="3.74" r="3.74" transform="translate(20.223 15.338)" fill="#48999a"/>
+      </g>
+      <g id="Grupo_2455" data-name="Grupo 2455" transform="translate(50.033 24.049)">
+        <g id="Grupo_2453" data-name="Grupo 2453">
+          <path id="Trazado_46" data-name="Trazado 46" d="M-1141.819,673.83l-17.678,18.99h35.566Z" transform="translate(1159.497 -673.83)" fill="#48999a"/>
+          <path id="Rectángulo_2220" data-name="Rectángulo 2220" d="M-1134.12,737.223h-19.594v-21.99h30.262v21.99h-19.594V723.185h8.927Z" transform="translate(1156.367 -696.941)" fill="#48999a"/>
+          <path id="Trazado_47" data-name="Trazado 47" d="M-1095.234,695.437V684.39h-3.424V691.8" transform="translate(1126.563 -680.245)" fill="#48999a"/>
+          <rect id="Rectángulo_2235" data-name="Rectángulo 2235" width="8.479" height="14.414" transform="translate(13.978 26.352)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_2548" data-name="Grupo 2548" transform="translate(-14812.041 11529)">
+      <circle id="Elipse_37" data-name="Elipse 37" cx="30" cy="30" r="30" transform="translate(0.041)" fill="#48999a"/>
+    </g>
+  </g>
+</svg>

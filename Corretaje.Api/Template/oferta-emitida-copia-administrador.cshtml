@@ -1,0 +1,52 @@
+﻿@using Corretaje.Api.Dto.Oferta
+
+@model OfertaInformacionAdministradorDto
+
+<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; width: 600px;">
+    <tr id="oferta-success">
+        <td valign="middle" class="bg_white" style="height: 400px;">
+            <table>
+                <tr>
+                    <td>
+                        <div class="box-cont text-center">
+                            <div class="cont-img"><img src="https://propiblobstorage.blob.core.windows.net/mails/images/success.png" alt=""></div>
+                            <p>Oferta emitida, información para el administrador</p>
+                        </div>
+                        <div>
+                            <p>
+                                Datos de la oferta:
+                                <ul>
+                                    <li>Monto ofertado: @Model.MontoDeOferta</li>
+                                </ul>
+                            </p>
+                            <p>
+                                Datos de la propiedad:
+                                <ul>
+                                    <li>Monto propiedad: @Model.MontoDePublicacion</li>
+                                    <li>Dirección: @Model.DireccionCompleta</li>
+                                    <li>Propiedad ID: @Model.PropiedadId</li>
+                                </ul>
+                            </p>
+                            <p>
+                                Emisor:
+                                <ul>
+                                    <li>Nombre: @Model.OfertadorNombre</li>
+                                    <li>Rut: @Model.OfertadorRut</li>
+                                    <li>Email: @Model.EmisorEmail</li>
+                                </ul>
+                            </p>
+                            <p>
+                                Receptor:
+                                <ul>
+                                    <li>Nombre: @Model.ReceptorNombre</li>
+                                    <li>Rut: @Model.ReceptorRut</li>
+                                    <li>Email: @Model.ReceptorEmail</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

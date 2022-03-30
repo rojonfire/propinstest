@@ -1,0 +1,28 @@
+﻿@using Corretaje.Api.Dto.Agenda
+
+@model VisitaFotografoDto
+
+<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; width: 600px;">
+    <tr id="visita-fotografo">
+        <td valign="middle" class="bg_white" style="height: 400px;">
+            <table>
+                <tr>
+                    <td>
+                        <div class="box-cont text-center">
+                            <div class="cont-img"><img src="https://propiblobstorage.blob.core.windows.net/mails/images/fotografo.png" alt="" style="border: none;"></div>
+                            <br>
+                            <h2>Visita cancelada</h2>
+                            <ul>
+                                <li>Datos del cliente:</li>
+                                <li>Nombre: @Model.Cliente.Nombres</li>
+                                <li>Correo: @Model.Cliente.Mail</li>
+                                <li>Teléfono de contacto: @Model.Cliente.Telefono</li>
+                            </ul>
+                            <p>La visita que tenias agendada para el día @Model.Fecha entre las @Model.Tramo hrs en @Model.Direccion ha sido cancelada</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

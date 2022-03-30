@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="313" viewBox="0 0 323 313">
+  <g id="Grupo_2563" data-name="Grupo 2563" transform="translate(12990 -8815)">
+    <rect id="Rectángulo_2250" data-name="Rectángulo 2250" width="323" height="313" transform="translate(-12990 8815)" fill="#f5f5f5"/>
+    <g id="Grupo_2411" data-name="Grupo 2411" transform="translate(-13103 7891)">
+      <circle id="Elipse_37" data-name="Elipse 37" cx="32.5" cy="32.5" r="32.5" transform="translate(242 1078)" fill="#48999a"/>
+    </g>
+    <g id="Grupo_2538" data-name="Grupo 2538" transform="translate(-14404 7412.725)">
+      <g id="Grupo_2460" data-name="Grupo 2460" transform="translate(1546.756 1430.275)">
+        <path id="Trazado_51" data-name="Trazado 51" d="M-1247.764,679.307v25.836h16.964v-5.732s1.9-5.1,6.365-5.181,6.456,4.942,6.456,4.942v5.97h17.217V679.307h5.26l-11.628-12.542V653.818h2.462v-3.108h-10.283v2.471h1.833v6.058l-10.761-12.355-28.854,32.3Z" transform="translate(1252.731 -646.883)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectángulo_2225" data-name="Rectángulo 2225" width="4.199" height="4.199" transform="translate(10.219 34.912)" fill="#48999a"/>
+        <rect id="Rectángulo_2226" data-name="Rectángulo 2226" width="4.199" height="4.199" transform="translate(10.219 41.802)" fill="#48999a"/>
+        <rect id="Rectángulo_2227" data-name="Rectángulo 2227" width="4.199" height="4.199" transform="translate(18.069 34.912)" fill="#48999a"/>
+        <rect id="Rectángulo_2228" data-name="Rectángulo 2228" width="4.199" height="4.199" transform="translate(18.069 41.802)" fill="#48999a"/>
+        <rect id="Rectángulo_2229" data-name="Rectángulo 2229" width="4.199" height="4.199" transform="translate(35.374 34.863)" fill="#48999a"/>
+        <rect id="Rectángulo_2230" data-name="Rectángulo 2230" width="4.199" height="4.199" transform="translate(35.374 41.753)" fill="#48999a"/>
+        <rect id="Rectángulo_2231" data-name="Rectángulo 2231" width="4.199" height="4.199" transform="translate(43.224 34.863)" fill="#48999a"/>
+        <rect id="Rectángulo_2232" data-name="Rectángulo 2232" width="4.199" height="4.199" transform="translate(43.224 41.753)" fill="#48999a"/>
+      </g>
+      <g id="Grupo_2461" data-name="Grupo 2461" transform="translate(1567.397 1494.362)">
+        <g id="Grupo_2462" data-name="Grupo 2462" transform="translate(0)">
+          <g id="Elipse_37-2" data-name="Elipse 37" transform="translate(-0.397 -0.362)" fill="none" stroke="#48999a" stroke-width="1">
+            <circle cx="9" cy="9" r="9" stroke="none"/>
+            <circle cx="9" cy="9" r="8.5" fill="none"/>
+          </g>
+          <text id="_2" data-name="2" transform="translate(5.603 3.638)" fill="#48999a" font-size="10" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="9">2</tspan></text>
+        </g>
+        <g id="Grupo_2464" data-name="Grupo 2464" transform="translate(52.397)">
+          <g id="Elipse_37-3" data-name="Elipse 37" transform="translate(0.206 -0.362)" fill="none" stroke="#48999a" stroke-width="1">
+            <ellipse cx="8.5" cy="9" rx="8.5" ry="9" stroke="none"/>
+            <ellipse cx="8.5" cy="9" rx="8" ry="8.5" fill="none"/>
+          </g>
+          <text id="_3" data-name="3" transform="translate(5.205 3.638)" fill="#48999a" font-size="10" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="9">3</tspan></text>
+        </g>
+      </g>
+      <line id="Línea_73" data-name="Línea 73" x2="35.725" transform="translate(1532.069 1503.492)" fill="none" stroke="#48999a" stroke-width="1"/>
+      <line id="Línea_74" data-name="Línea 74" x2="35.725" transform="translate(1584.466 1503.492)" fill="none" stroke="#48999a" stroke-width="1"/>
+      <g id="Grupo_2439" data-name="Grupo 2439" transform="translate(1515 1495.156)">
+        <ellipse id="Elipse_13" data-name="Elipse 13" cx="8.5" cy="9" rx="8.5" ry="9" transform="translate(0 -0.156)" fill="#48999a"/>
+        <path id="Path" d="M0,3.258l.878-.845L3.137,4.585,7.906,0l.878.845L3.137,6.275Z" transform="translate(4.69 5.629)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

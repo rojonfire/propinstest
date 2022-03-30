@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="313" viewBox="0 0 323 313">
+  <g id="Grupo_2560" data-name="Grupo 2560" transform="translate(14020 -8815)">
+    <rect id="Rectángulo_2247" data-name="Rectángulo 2247" width="323" height="313" transform="translate(-14020 8815)" fill="#f5f5f5"/>
+    <g id="Grupo_2381" data-name="Grupo 2381" transform="translate(-14133 7891)">
+      <circle id="Elipse_37" data-name="Elipse 37" cx="32.5" cy="32.5" r="32.5" transform="translate(242 1078)" fill="#48999a"/>
+    </g>
+    <g id="Grupo_2533" data-name="Grupo 2533" transform="translate(-14164 7413)">
+      <g id="IconCrearCuenta-02" transform="translate(268 1437)">
+        <path id="Trazado_27" data-name="Trazado 27" d="M88.459,13.76H13.76V81.736h74.7Z" transform="translate(-13.76 -13.76)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_28" data-name="Trazado 28" d="M61.96,18.91H13.8" transform="translate(-13.717 -8.224)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <circle id="Elipse_38" data-name="Elipse 38" cx="1.141" cy="1.141" r="1.141" transform="translate(4.586 4.212)" fill="#48999a"/>
+        <circle id="Elipse_39" data-name="Elipse 39" cx="1.141" cy="1.141" r="1.141" transform="translate(11.807 4.212)" fill="#48999a"/>
+        <circle id="Elipse_40" data-name="Elipse 40" cx="1.141" cy="1.141" r="1.141" transform="translate(8.175 4.212)" fill="#48999a"/>
+        <path id="Trazado_29" data-name="Trazado 29" d="M45.23,39.88a8.86,8.86,0,1,0-17.72,0Z" transform="translate(1.021 4.794)" fill="#48999a"/>
+        <circle id="Elipse_41" data-name="Elipse 41" cx="4.918" cy="4.918" r="4.918" transform="translate(32.473 26.228)" fill="#48999a"/>
+        <circle id="Elipse_42" data-name="Elipse 42" cx="15.811" cy="15.811" r="15.811" transform="translate(21.58 19.629)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_56" data-name="Línea 56" x2="34.278" transform="translate(20.252 59.593)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Línea_57" data-name="Línea 57" x2="34.278" transform="translate(20.252 56.73)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

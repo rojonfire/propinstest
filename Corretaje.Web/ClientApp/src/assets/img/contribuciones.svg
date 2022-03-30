@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="contribuciones" transform="translate(-244 -941)">
+    <circle id="Elipse_9" data-name="Elipse 9" cx="22.5" cy="22.5" r="22.5" transform="translate(244 941)" fill="#fff"/>
+    <g id="Grupo_1290" data-name="Grupo 1290" transform="translate(243.9 946.047)">
+      <path id="Trazado_9333" data-name="Trazado 9333" d="M33.828,2.5H16.79a1.683,1.683,0,0,0-1.672,1.672V6.917H12.372A1.683,1.683,0,0,0,10.7,8.59V30.835a1.683,1.683,0,0,0,1.672,1.672H29.411a1.683,1.683,0,0,0,1.672-1.672V28.09h2.745A1.683,1.683,0,0,0,35.5,26.417V4.172A1.7,1.7,0,0,0,33.828,2.5Zm-4.1,28.3a.283.283,0,0,1-.284.284H12.4a.311.311,0,0,1-.316-.284V8.558a.291.291,0,0,1,.316-.284h2.745V26.417a1.683,1.683,0,0,0,1.672,1.672H29.727Zm4.386-4.386a.316.316,0,0,1-.316.316H16.79a.316.316,0,0,1-.316-.316V4.172a.316.316,0,0,1,.316-.316H33.828a.316.316,0,0,1,.316.316V26.417Z" fill="#4a4a4a"/>
+      <path id="Trazado_9334" data-name="Trazado 9334" d="M49.554,53.3H39.394a.694.694,0,0,0,0,1.388H49.523a.7.7,0,0,0,.694-.694A.674.674,0,0,0,49.554,53.3Z" transform="translate(-19.165 -33.771)" fill="#4a4a4a"/>
+      <path id="Trazado_9335" data-name="Trazado 9335" d="M49.554,66.2H39.394a.694.694,0,1,0,0,1.388H49.523a.695.695,0,0,0,.032-1.388Z" transform="translate(-19.165 -43.601)" fill="#4a4a4a"/>
+      <path id="Trazado_9336" data-name="Trazado 9336" d="M49.554,40.3H39.394a.694.694,0,0,0,0,1.388H49.523a.695.695,0,0,0,.032-1.388Z" transform="translate(-19.165 -23.873)" fill="#4a4a4a"/>
+      <g id="Grupo_1291" data-name="Grupo 1291" transform="translate(-1.182)">
+        <path id="Trazado_9337" data-name="Trazado 9337" d="M48.822,22.577a1.014,1.014,0,0,0,.688.3.855.855,0,0,0,.688-.3l5.587-5.587a.91.91,0,0,0,0-1.332.989.989,0,0,0-1.332,0l-5.587,5.587A.878.878,0,0,0,48.822,22.577Z" transform="translate(-25.803 -8.727)" fill="#4a4a4a"/>
+        <circle id="Elipse_38" data-name="Elipse 38" cx="1.504" cy="1.504" r="1.504" transform="translate(22.375 6.286)" fill="#4a4a4a"/>
+        <circle id="Elipse_39" data-name="Elipse 39" cx="1.504" cy="1.504" r="1.504" transform="translate(27.575 11.487)" fill="#4a4a4a"/>
+      </g>
+    </g>
+  </g>
+</svg>

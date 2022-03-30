@@ -1,0 +1,100 @@
+@using Corretaje.Api.Dto.Propiedad
+@model PropiedadFastEmailDto
+
+<div style="background-color:white;">
+    <div style="margin:0px auto;max-width:520px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+            <tbody>
+                <tr>
+                    <td style="direction:ltr;font-size:0px;padding:60px 10% 12px 10%;text-align:center;">
+                        <div class="mj-column-per-100 outlook-group-fix"
+                            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="vertical-align:top;">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                            <img src="https://propiblobstorage.blob.core.windows.net/mails/images/logo.png"
+                                                alt="LogoPropins" style="width:140px;height:40px;">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="mj-column-per-100 outlook-group-fix "
+        style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%; ">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top; " width="100%">
+            <tbody>
+
+                <tr>
+                    <td align="left" style="font-size:0px;padding:8px 0 16px 0;word-break:break-word;">
+                        <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:30px;font-weight:600;line-height:1.4;text-align:center;color: #000000;">
+                            Nueva contratacion fast desde admin
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="font-size:0px;padding:8px 0 16px 0;word-break:break-word;">
+                        <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.4;text-align:left; ">
+                            <span style="color: #000000; font-weight:800; text-align: left;">Detalles de la contratación:</span>
+                            <ul>
+                                <li>
+                                    <b>Fecha Contratación:</b> @Model.FechaContratacion
+                                </li>
+                                <li>
+                                    <b>Tipo propiedad:</b> @Model.TipoPropiedad
+                                </li>
+                                @if (Model.TipoPropiedad == "Departamento")
+                                {
+
+                                    <li>
+                                        <b>Dirección:</b> @Model.NombreCalle @Model.Numero Departamento @Model.NumeroDepartamento
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <b>Dirección:</b> @Model.NombreCalle @Model.Numero
+                                    </li>
+                                }
+
+                                <li>
+                                    <b>Barrio:</b> @Model.Barrio
+                                </li>
+                                <li>
+                                    <b>Comuna:</b> @Model.Comuna
+                                </li>
+                                <li>
+                                    <b>Codigo Propiedad:</b> @Model.CodigoPropiedad
+                                </li>
+                            </ul>
+                            <span style="color: #000000; font-weight:800; text-align: left;">Detalles del cliente:</span>
+                            <ul>
+                                <li>
+                                    <b>Nombre:</b> @Model.NombreCliente
+                                </li>
+                                <li>
+                                    <b>Rut:</b> @Model.RutCliente
+                                </li>
+                                <li>
+                                    <b>Telefono:</b> @Model.TelefonoCliente
+                                </li>
+                                <li>
+                                    <b>Email:</b> @Model.EmailCliente
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

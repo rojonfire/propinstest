@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;WSWebpayServiceImplServiceSoapBinding&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="WSWebpayServiceImplServiceSoapBinding" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;WSWebpayServiceImplServiceSoapBinding1&quot; /&gt;" bindingType="basicHttpBinding" name="WSWebpayServiceImplServiceSoapBinding1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://webpay3gint.transbank.cl:443/WSWebpayTransaction/cxf/WSWebpayService&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;WSWebpayServiceImplServiceSoapBinding&quot; contract=&quot;TransbankPayment.WSWebpayService&quot; name=&quot;WSWebpayServiceImplPort&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://webpay3gint.transbank.cl:443/WSWebpayTransaction/cxf/WSWebpayService&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;WSWebpayServiceImplServiceSoapBinding&quot; contract=&quot;TransbankPayment.WSWebpayService&quot; name=&quot;WSWebpayServiceImplPort&quot; /&gt;" contractName="TransbankPayment.WSWebpayService" name="WSWebpayServiceImplPort" />
+  </endpoints>
+</configurationSnapshot>

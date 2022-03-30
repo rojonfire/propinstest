@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title>Propins</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- CSS Reset : Mailing -->
+    <style>
+        html, body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+            background: white;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            color: #3c3b3b;
+            font-size: 1rem;
+        }
+
+        .footer p {
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+
+        *[x-apple-data-detectors],
+        .unstyle-auto-detected-links *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+
+        .im {
+            color: inherit !important;
+        }
+
+        img.g-img + div {
+            display: none !important;
+        }
+
+        @@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            u ~ div .email-container table {
+                width: 320px !important;
+            }
+        }
+
+        @@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            u ~ div .email-container table {
+                width: 375px !important;
+            }
+        }
+
+        @@media only screen and (min-device-width: 414px) {
+            u ~ div .email-container table {
+                width: 414px !important;
+            }
+        }
+    </style>
+    <!-- END CSS Reset : Mailing -->
+    <!-- Progressive Enhancements : BEGIN -->
+    <style>
+        .bg_white {
+            background: #ffffff;
+        }
+
+        .bg_black {
+            background: #3C3B3B;
+        }
+
+        .bg_light2 {
+            background-color: #dbecdf;
+        }
+
+        .email-section {
+            padding: 2.5em;
+        }
+        /*BUTTON*/
+        .btn {
+            padding: 10px 15px;
+            display: inline-block;
+            border-radius: 0.25rem;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #00a72c;
+            border-color: #00a72c;
+        }
+
+        .btn.btn-white {
+            border-radius: 30px;
+            background: #ffffff;
+            color: #000000;
+        }
+
+        .btn.btn-white-outline {
+            border-radius: 30px;
+            background: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .cont-foto {
+            width: 120px;
+            height: 100px;
+            overflow: hidden;
+        }
+
+            .cont-foto img {
+                width: 100%;
+            }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Work Sans', sans-serif;
+            color: #3c3b3b;
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            color: rgba(0,0,0,.4);
+        }
+
+        a {
+            color: #448ef6;
+        }
+
+        table {
+            color: #3c3b3b;
+        }
+
+        hr {
+            margin: 2rem 0;
+            border: 1px solid #dee2e6;
+        }
+
+        p {
+            line-height: 27px;
+        }
+
+        .cont-img {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+            .cont-img img {
+                width: 200px;
+            }
+
+        .text-primary {
+            font-size: 25px;
+            color: #00a72c;
+        }
+        /*LOGO*/
+        .logo h1 {
+            margin: 0;
+        }
+
+            .logo h1 a {
+                color: #000000;
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+            }
+
+        .navigation {
+            padding: 0;
+        }
+
+            .navigation li {
+                list-style: none;
+                display: inline-block;
+                margin-left: 5px;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+                .navigation li a {
+                    color: #3c3b3b;
+                }
+        /*HERO*/
+        .hero {
+            position: relative;
+            z-index: 0;
+        }
+
+            .hero .text {
+                color: rgba(255,255,255,.9);
+            }
+
+                .hero .text h2 {
+                    color: #fff;
+                    font-size: 50px;
+                    margin-bottom: 0;
+                    font-weight: 300;
+                    line-height: 1;
+                }
+
+                    .hero .text h2 span {
+                        font-weight: 600;
+                        color: #448ef6;
+                    }
+        /*BLOG*/
+        .text-services .meta {
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        /*FOOTER*/
+        .footer {
+            color: rgba(255,255,255,.5);
+        }
+
+            .footer .heading {
+                color: #ffffff;
+                font-size: 20px;
+            }
+
+            .footer ul {
+                margin: 0;
+                padding: 0;
+            }
+
+                .footer ul li {
+                    list-style: none;
+                    margin-bottom: 10px;
+                }
+
+                    .footer ul li a {
+                        color: #ffffff;
+                        font-size: 1rem;
+                        text-decoration: underline;
+                    }
+
+        .btn-lg {
+            padding: 15px 10px;
+            text-transform: uppercase;
+        }
+
+        .box-cont {
+            padding: 2.5rem;
+        }
+    </style>
+
+
+</head>
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: white;">
+    <center style="width: 100%; background-color: #f1f1f1;">
+        <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+            &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </div>
+        <div style="background-color: whitemax-width: 600px; margin: 0 auto;" class="email-container">
+            <!-- Header -->
+           
+            <!-- End Header -->
+            <div>
+                @RenderBody()
+            </div>
+
+            <!-- Footer -->
+            
+            <!-- End Footer -->
+        </div>
+    </center>
+</body>
+</html>

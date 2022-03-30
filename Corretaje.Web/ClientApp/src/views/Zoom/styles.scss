@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+#zmmtg-root {
+  background-color: transparent;
+  font-family: "Comfortaa", cursive;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #dbecdf;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #757575;
+  --gray-dark: #3c3b3b;
+  --primary: #00a72c;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #3c3b3b;
+  --light-two: #e6ebf1;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  @font-face {
+    font-family: "Comfortaa", cursive;
+  }
+}
+
+html > body {
+  overflow-y: auto !important;
+  min-width: auto !important;
+  font-family: "Comfortaa", cursive;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+div.bread-crumb-custom {
+  width: 100%;
+  background-color: #e9ecef;
+  margin: 0px;
+  padding-left: 25px;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="339" viewBox="0 0 244 339">
+  <g id="Grupo_2556" data-name="Grupo 2556" transform="translate(15451 -11503)">
+    <rect id="Rectángulo_2257" data-name="Rectángulo 2257" width="244" height="339" transform="translate(-15451 11503)" fill="#f5f5f5"/>
+    <g id="Grupo_2555" data-name="Grupo 2555" transform="translate(-15357 11767.778)">
+      <g id="IconCrearCuenta-02" transform="translate(0 0)">
+        <path id="Trazado_27" data-name="Trazado 27" d="M70.124,13.76H13.76V65.051H70.124Z" transform="translate(-13.76 -13.76)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_28" data-name="Trazado 28" d="M50.139,18.91H13.8" transform="translate(-13.737 -10.847)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <circle id="Elipse_38" data-name="Elipse 38" cx="0.861" cy="0.861" r="0.861" transform="translate(3.46 3.178)" fill="#48999a"/>
+        <circle id="Elipse_39" data-name="Elipse 39" cx="0.861" cy="0.861" r="0.861" transform="translate(8.909 3.178)" fill="#48999a"/>
+        <circle id="Elipse_40" data-name="Elipse 40" cx="0.861" cy="0.861" r="0.861" transform="translate(6.169 3.178)" fill="#48999a"/>
+        <path id="Trazado_29" data-name="Trazado 29" d="M40.881,37.705a6.685,6.685,0,1,0-13.371,0Z" transform="translate(-5.982 -3.996)" fill="#48999a"/>
+        <circle id="Elipse_41" data-name="Elipse 41" cx="3.711" cy="3.711" r="3.711" transform="translate(24.503 19.79)" fill="#48999a"/>
+        <circle id="Elipse_42" data-name="Elipse 42" cx="11.93" cy="11.93" r="11.93" transform="translate(16.283 14.811)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Línea_56" data-name="Línea 56" x2="25.865" transform="translate(15.281 44.966)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Línea_57" data-name="Línea 57" x2="25.865" transform="translate(15.281 42.805)" fill="none" stroke="#48999a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Grupo_2551" data-name="Grupo 2551" transform="translate(-15359 11529)">
+      <circle id="Elipse_37" data-name="Elipse 37" cx="30" cy="30" r="30" fill="#48999a"/>
+    </g>
+  </g>
+</svg>

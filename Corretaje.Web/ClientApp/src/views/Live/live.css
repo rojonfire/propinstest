@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@font-face {
+  font-family: "Comfortaa", cursive;
+}
+.cardlive {
+  display: inline-flex;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid transparent; */
+  border-radius: 0.25rem;
+}
+div.col-md-12.pa0.shadow.cardlive.col {
+  padding: 0px !important;
+}
+
+div.col-md-7.pad.w-table-50.col {
+  padding: 0.7em;
+}
+
+div.col-md-5.pa0.w-table-50.col {
+  padding: 0px !important;
+}
+
+.cardlive-title {
+  font-size: 0.9rem;
+  line-height: 1.3em;
+  margin-bottom: 0.5rem;
+}
+
+.pad {
+  padding: 15px !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.caja {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.caja-pro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.box {
+  /* width: 450px; */
+  height: 100%;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.box-pro {
+  /* width: 450px; */
+  height: 100%;
+  width: 100%;
+  background: #ccc;
+  overflow: hidden;
+}
+
+div.card-proyecto div.caja div.box img {
+  max-height: 100px;
+  min-height: 100px;
+}
+
+div.card-proyecto div.caja div.box-pro img {
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.caja-pro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+.box-pro img {
+  width: 100%;
+  height: auto;
+}
+@supports (object-fit: cover) {
+  .box img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .box-pro img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.purple-button {
+  background-color: #0060f4 !important;
+  border-color: #0060f4 !important;
+}
+
+.white-button {
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.line-clamp {
+  text-align: justify;
+}
+
+div.card-proyecto-all-proyects
+  > div.row
+  > div.col-lg-6.col-12.pabox
+  > div.col-12.row {
+  min-height: 100%;
+}

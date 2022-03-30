@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.807" height="20.804" viewBox="0 0 20.807 20.804">
+  <g id="icon-oferta" transform="translate(-3 -1028.556)">
+    <path id="Trazado_21" data-name="Trazado 21" d="M6,1031.36a3.016,3.016,0,0,0-3,3v12a3.016,3.016,0,0,0,3,3H18a3.016,3.016,0,0,0,3-3v-7H19v7a.977.977,0,0,1-1,1H6a.977.977,0,0,1-1-1v-12a.977.977,0,0,1,1-1h7v-2Z" fill="#fff"/>
+    <g id="Grupo_9" data-name="Grupo 9" transform="translate(752.386 307.754) rotate(45)">
+      <path id="Trazado_22" data-name="Trazado 22" d="M-7,1A1,1,0,0,0-8,2V15l2.5,4L-3,15V2A1,1,0,0,0-4,1Z" transform="translate(0 1028.362)" fill="none"/>
+      <path id="Trazado_23" data-name="Trazado 23" d="M-8,1032.86h5" fill="none"/>
+      <path id="Trazado_24" data-name="Trazado 24" d="M-8,1042.86h5" fill="none"/>
+    </g>
+    <g id="Grupo_546" data-name="Grupo 546" transform="translate(752.386 307.755) rotate(45)">
+      <path id="Trazado_22-2" data-name="Trazado 22" d="M-7,1A1,1,0,0,0-8,2V15l2.5,4L-3,15V2A1,1,0,0,0-4,1Z" transform="translate(0 1028.362)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_23-2" data-name="Trazado 23" d="M-8,1032.86h5" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Trazado_24-2" data-name="Trazado 24" d="M-8,1042.86h5" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

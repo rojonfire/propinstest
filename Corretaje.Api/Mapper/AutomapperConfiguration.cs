@@ -1,0 +1,111 @@
+﻿using AutoMapper;
+using Corretaje.Api.Dto;
+using Corretaje.Api.Dto.Agenda;
+using Corretaje.Api.Dto.Aval;
+using Corretaje.Api.Dto.Broker;
+using Corretaje.Api.Dto.Busqueda;
+using Corretaje.Api.Dto.Cliente;
+using Corretaje.Api.Dto.Contrato;
+using Corretaje.Api.Dto.Embajador;
+using Corretaje.Api.Dto.Evaluar;
+using Corretaje.Api.Dto.LandingInmobiliaria;
+using Corretaje.Api.Dto.Oferta;
+using Corretaje.Api.Dto.OrdenCompra;
+using Corretaje.Api.Dto.Plan;
+using Corretaje.Api.Dto.Proper;
+using Corretaje.Api.Dto.Propiedad;
+using Corretaje.Api.Dto.RecuperarCuenta;
+using Corretaje.Api.Dto.ServicioBase;
+using Corretaje.Api.Dto.Suscripcion;
+using Corretaje.Api.Dto.Tasacion;
+using Corretaje.Api.Dto.Usuario;
+using Corretaje.Api.Dto.ValoracionUsuario;
+using Corretaje.Api.Dto.Zoom;
+using Corretaje.Domain;
+using Corretaje.Domain.Agenda;
+using Corretaje.Domain.Evaluar;
+using Corretaje.Domain.Tasacion;
+using Corretaje.Domain.Zoom;
+using MongoDB.Bson;
+
+namespace Corretaje.Api.Mapper
+{
+    public class AutomapperConfiguration : Profile
+    {
+        public AutomapperConfiguration()
+        {
+            CreateMap<string, ObjectId>().ConvertUsing<MongoIdConverter>();
+            CreateMap<AdministradorDto, Usuario>().ReverseMap();
+            CreateMap<AdministradorAgregarDto, Usuario>().ReverseMap();
+            CreateMap<AgendaDto, Agenda>().ReverseMap();
+            CreateMap<AgentDto, Usuario>().ReverseMap();
+            CreateMap<AgregarServicioBaseDto, ServicioBase>().ReverseMap();
+            CreateMap<AgregarValoracionUsuarioDto, ValoracionUsuario>().ReverseMap();
+            CreateMap<AvalDto, Aval>().ReverseMap();
+            CreateMap<BackofficeLoginDto, Usuario>().ReverseMap();
+            CreateMap<BloqueDto, Bloque>().ReverseMap();
+            CreateMap<AgregarBrokerDto, Broker>().ReverseMap();
+            CreateMap<BloqueAgenteDto, BloqueAgente>().ReverseMap();
+            CreateMap<BloqueAgenteAgregarDto, BloqueAgente>().ReverseMap();
+            CreateMap<BloqueClienteDto, BloqueCliente>().ReverseMap();
+            CreateMap<BloqueClienteAgregarDto, BloqueCliente>().ReverseMap();
+            CreateMap<BloqueFotografoDto, BloqueFotografo>().ReverseMap();
+            CreateMap<BloqueFotografoAgregarDto, BloqueFotografo>().ReverseMap();
+            CreateMap<BusquedaDto, Busqueda>().ReverseMap();
+            CreateMap<CalleDto, Calle>().ReverseMap();
+            CreateMap<ClienteDto, Cliente>().ReverseMap();
+            CreateMap<ContratoAgregarDto, Contrato>().ReverseMap();
+            CreateMap<ContratoArrendamientoAgregarDto, Contrato>().ReverseMap();
+            CreateMap<ContratoDto, Contrato>().ReverseMap();
+            CreateMap<Dto.Propiedad.DireccionDto, Domain.Direccion>().ReverseMap();
+            CreateMap<DatosTasacion, DatosTasacionArriendo>().ReverseMap();
+            CreateMap<DatosTasacion, DatosTasacionVenta>().ReverseMap();
+            CreateMap<ReferirEmbajadorDto, Embajador>().ReverseMap();
+            CreateMap<EvaluarAnfitrionDto, EvaluarAnfitrion>().ReverseMap();
+            CreateMap<EvaluarProyectoInmobiliarioDto, EvaluarProyectoInmobiliario>().ReverseMap();
+            CreateMap<InmobiliariaDto, Inmobiliaria>().ReverseMap();
+            CreateMap<LandingInmobiliariaCrearEditarDto, LandingInmobiliaria>().ReverseMap();
+            CreateMap<LandingInmobiliariaDto, LandingInmobiliaria>().ReverseMap();
+            CreateMap<MensajeOfertaDto, MensajeOferta>().ReverseMap();
+            CreateMap<OfertaDto, Oferta>().ReverseMap();
+            CreateMap<OfertaAgregarDto, Oferta>().ReverseMap();
+            CreateMap<OperacionDto, Operacion>().ReverseMap();
+            CreateMap<OrdenDeCompraDto, OrdenDeCompra>().ReverseMap();
+            CreateMap<OrdenCompraUsuarioLoginDto, OrdenDeCompra>().ReverseMap();
+            CreateMap<PlanDto, Plan>().ReverseMap();
+            CreateMap<PropiedadActualizarDto, Propiedad>().ReverseMap();
+            CreateMap<ProyectoInmobiliarioDto, ProyectoInmobiliario>().ReverseMap();
+            CreateMap<ProyectoInmobiliarioQueryStringDto, ProyectoInmobiliarioQueryString>().ReverseMap();
+            CreateMap<RecuperarCuentaDto, RecuperarCuenta>().ReverseMap();
+            CreateMap<RecuperarCuentaAgregarDto, RecuperarCuenta>().ReverseMap();
+            CreateMap<ResponseDto, ResultadoDelProceso>().ReverseMap();
+            CreateMap<ServicioAdicionalDto, ServicioAdicional>().ReverseMap();
+            CreateMap<ServicioBaseDto, ServicioBase>().ReverseMap();
+            CreateMap<ServicioBaseFormateadoParaVistaDto, ServicioBase>().ReverseMap();
+            CreateMap<SuscripcionDto, Suscripcion>().ReverseMap();
+            CreateMap<SuscripcionCrearEditarDto, Suscripcion>().ReverseMap();
+            CreateMap<PlanConServicioBaseFormateadoParaVistaDto, Plan>().ReverseMap();
+            CreateMap<TasacionDto, Tasacion>().ReverseMap();
+            CreateMap<TicketDto, Ticket>().ReverseMap();
+            CreateMap<UsuarioDto, Usuario>().ReverseMap();
+            CreateMap<ProperDto, Propers>().ReverseMap();
+            CreateMap<ReferirProperDto, ReferidoProper>().ReverseMap();
+            CreateMap<ReferidoDto, Referidos>().ReverseMap();
+            CreateMap<UsuarioCrearCuentaDto, Usuario>().ReverseMap();
+            CreateMap<UsuarioReferirVendedorDto, Usuario>().ReverseMap();
+            CreateMap<ReferirEmbajadorDto, Usuario>().ReverseMap();
+            CreateMap<ValoracionUsuarioDto, ValoracionUsuario>().ReverseMap();
+            CreateMap<VisitaAgente,VisitaAgenteAgregarDto>().ReverseMap();
+            CreateMap<VisitaAgente,VisitaAgenteDto>().ReverseMap();
+            CreateMap<VisitaUsuarioDto, VisitaUsuario>().ReverseMap();
+            CreateMap<VisitaUsuarioAgregarDto, VisitaUsuario>().ReverseMap();
+            CreateMap<VisitaUsuarioAgregarDto, VisitaBrokerSuscriptor>().ReverseMap();
+            CreateMap<VisitaFotografoDto, VisitaFotografo>().ReverseMap();
+            CreateMap<VisitaFotografoAgregarDto, VisitaFotografo>().ReverseMap();
+            CreateMap<VisitaBrokerSuscriptorDto, VisitaBrokerSuscriptor>().ReverseMap();
+            CreateMap<VisitaBrokerSuscriptorAgregarDto, VisitaBrokerSuscriptor>().ReverseMap();
+            CreateMap<ZoomMeetingDto, ZoomMeeting>().ReverseMap();
+            CreateMap<ZoomMeetingEventDto, ZoomMeetingEvent>().ReverseMap();
+        }
+    }
+}

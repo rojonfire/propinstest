@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DnsClient" Version="1.3.1" />
+    <PackageReference Include="LinqKit.Core" Version="1.1.16" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Corretaje.Common\Corretaje.Common.csproj" />
+    <ProjectReference Include="..\Corretaje.Domain\Corretaje.Domain.csproj" />
+    <ProjectReference Include="..\Corretaje.Repository\Corretaje.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

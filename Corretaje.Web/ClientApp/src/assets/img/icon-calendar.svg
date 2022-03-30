@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.573" height="19.198" viewBox="0 0 17.573 19.198">
+  <g id="icon-calendar" transform="translate(-18.625 -15.651)">
+    <g id="Grupo_26" data-name="Grupo 26" transform="translate(18.625 15.651)">
+      <g id="Grupo_20" data-name="Grupo 20" transform="translate(0 5.337)">
+        <path id="Trazado_1" data-name="Trazado 1" d="M18.625,47.933a.684.684,0,0,0,.684.684H35.1a.684.684,0,0,0,.684-.684V35.166H18.625Zm12.6-10.7h2.29v2.29h-2.29Zm0,3.5h2.29v2.289h-2.29Zm-3.5-3.5h2.29v2.29h-2.29Zm0,3.5h2.29v2.289h-2.29Zm0,3.5h2.29v2.29h-2.29Zm-3.416-7H26.6v2.29h-2.29Zm0,3.5H26.6v2.289h-2.29Zm0,3.5H26.6v2.29h-2.29Zm-3.416-7h2.289v2.29H20.9Zm0,3.5h2.289v2.289H20.9Zm0,3.5h2.289v2.29H20.9Z" transform="translate(-18.625 -35.166)" fill="#fff"/>
+      </g>
+      <g id="Grupo_21" data-name="Grupo 21" transform="translate(2.975 0)">
+        <path id="Trazado_2" data-name="Trazado 2" d="M29.5,16.061v1.778a.41.41,0,0,0,.82,0v-.97h0v-.8a.41.41,0,0,0-.82,0Z" transform="translate(-29.502 -15.651)" fill="#fff"/>
+      </g>
+      <g id="Grupo_22" data-name="Grupo 22" transform="translate(0 1.627)">
+        <path id="Trazado_3" data-name="Trazado 3" d="M35.786,22.283A.685.685,0,0,0,35.1,21.6H33.632v.561a1.231,1.231,0,1,1-2.461,0V21.6H28.436v.561a1.231,1.231,0,1,1-2.461,0V21.6H23.241v.561a1.231,1.231,0,1,1-2.461,0V21.6H19.309a.685.685,0,0,0-.684.684v2.206H35.786Z" transform="translate(-18.625 -21.599)" fill="#fff"/>
+      </g>
+      <g id="Grupo_23" data-name="Grupo 23" transform="translate(8.17)">
+        <path id="Trazado_4" data-name="Trazado 4" d="M48.5,16.061v1.778a.41.41,0,0,0,.82,0V16.061a.41.41,0,0,0-.82,0Z" transform="translate(-48.5 -15.651)" fill="#fff"/>
+      </g>
+      <g id="Grupo_24" data-name="Grupo 24" transform="translate(17.507 19.131)">
+        <path id="Trazado_5" data-name="Trazado 5" d="M82.638,85.67h.067V85.6C82.683,85.626,82.661,85.649,82.638,85.67Z" transform="translate(-82.638 -85.603)" fill="#fff"/>
+      </g>
+      <g id="Grupo_25" data-name="Grupo 25" transform="translate(13.366)">
+        <path id="Trazado_6" data-name="Trazado 6" d="M67.5,17.839a.41.41,0,0,0,.82,0V16.061a.41.41,0,0,0-.82,0v.8h0Z" transform="translate(-67.498 -15.651)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

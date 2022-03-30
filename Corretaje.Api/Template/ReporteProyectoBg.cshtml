@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title>Propins Live</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <style type="text/css">
+        html,
+        body {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 5px;
+            font-size: 0.8rem;
+            font-weight: normal;
+            border: 1px solid #222222;
+        }
+
+        li,
+        p {
+            margin-bottom: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: circle;
+            padding: 0;
+        }
+
+        h1,
+        h3 {
+            color: #0060f4;
+        }
+
+        h3 {
+            margin-bottom: 0;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        th {
+            background: #f5f5f5;
+        }
+
+        .container-logo {
+            width: 100%;
+            /*  padding-right: 4rem;
+        padding-left: 4rem; */
+            padding-bottom: 1rem;
+            margin-right: auto;
+            margin-left: auto;
+            /*  max-width: 1600px; */
+            /* margin-bottom: 2rem; */
+            margin-top: 2rem;
+        }
+
+        .logo {
+            width: 200px;
+        }
+
+        .container {
+            /* width: 100%;
+        height: 100%; */
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: auto;
+            margin-left: auto;
+            max-height: 279mm;
+            max-width: 330mm;
+        }
+
+        .title {
+            flex-grow: 1;
+            align-self: auto;
+            margin-left: 2rem;
+            flex-grow: 0;
+            width: 100%;
+        }
+
+            .title h3 {
+                font-size: 1rem;
+            }
+
+        .average-number-container p {
+            margin: 0;
+            /*  font-weight: bold; */
+            padding-bottom: 3px;
+        }
+
+        .bar-container {
+            max-width: 50%;
+            flex-grow: 1;
+            align-self: auto;
+            margin-left: 2rem;
+            flex-grow: 0;
+            width: 100%;
+            /* flex-shrink: 0;
+        flex-basis: 66.6667%;
+        max-width: 66.666667%; */
+        }
+
+        .progress-five {
+            width: 150px;
+            background-color: #ddd;
+            position: relative;
+        }
+
+            .progress-five span {
+                position: relative;
+                display: flex;
+                left: 159px;
+                top: -3px;
+            }
+
+        .bar-5 {
+            width: 100%;
+            height: 12px;
+            display: flex;
+            background-color: #b7ea83;
+        }
+
+        .bar-4 {
+            width: 80%;
+            height: 12px;
+            display: flex;
+            background-color: #b7ea83;
+        }
+
+        .bar-2 {
+            width: 20%;
+            height: 12px;
+            display: flex;
+            background-color: #fbb851;
+        }
+
+        .bar-3 {
+            width: 50%;
+            height: 12px;
+            display: flex;
+            background-color: #f6d757;
+        }
+
+        .bar-1 {
+            width: 20%;
+            height: 12px;
+            display: flex;
+            background-color: #fb5951;
+        }
+
+        .cell-5 {
+            background-color: #b7ea83;
+            text-align: center;
+        }
+
+        .cell-4 {
+            background-color: #b7ea83;
+            text-align: center;
+        }
+
+        .cell-2 {
+            background-color: #fbb851;
+            text-align: center;
+        }
+
+        .cell-3 {
+            background-color: #f6d757;
+            text-align: center;
+        }
+
+        .cell-1 {
+            background-color: #fb5951;
+            text-align: center;
+        }
+
+        .average-container {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: start;
+            width: 100%;
+        }
+
+        h4 {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: normal;
+        }
+
+        .average-number-container {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: start;
+            align-items: flex-start;
+        }
+
+        .tabla {
+            max-width: 100%;
+        }
+
+        .title h3 {
+            margin-top: 0;
+        }
+
+        .container p {
+            padding-bottom: 0;
+            font-size: 0.8rem;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+          rel="stylesheet" />
+    <title>Detalle informe Proppins</title>
+</head>
+<body>
+    <!--   <div class="container-logo">
+      <img class="logo" src="./img/Logo.svg" />
+      <img class="logo" src="./img/logo-plive.svg" />
+    </div> -->
+    <div class="container">
+        <div class="container-logo">
+            <img class="logo"  src="data:image/png;base64, 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"
+             />
+        </div>
+
+        <h1>Informe [NOMBRE_INMOBILIARIA]</h1>
+        <div class="tabla">
+            <table style="max-width: 45%;border: 0;">
+                <tbody>
+                    <tr>
+                        <td>Periodo evaluado:</td>
+                        <td><strong>[PERIODO]</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3>[NOMBRE_PROYECTO]</h3>
+        <p>Evaluación ponderada del proyecto (escala 1 a 5):</p>
+
+        <table style="width: 45%;">
+            <tbody>
+                <tr>
+                    <td>Ponderado del Proyecto</td>
+                    <td>
+                        <div class="progress-five">
+                            <div class="bar-[B_PROYECTO]"><span> [P_PROYECTO] </span> </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Equipamiento</td>
+                    <td>
+                        <div class="progress-five">
+                            <div class="bar-[B_EQUIPAMIENTO]"><span> [P_EQUIPAMIENTO]  </span> </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Terminaciones</td>
+                    <td>
+                        <div class="progress-five">
+                            <div class="bar-[B_TERMINACIONES]"><span> [P_TERMINACIONES] </span> </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conectividad</td>
+                    <td>
+                        <div class="progress-five">
+                            <div class="bar-[B_CONECTIVIDAD]"><span> [P_CONECTIVIDAD] </span> </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rentabilidad</td>
+                    <td>
+                        <div class="progress-five">
+                            <div class="bar-[B_RENTABILIDAD]"><span> [P_RENTABILIDAD] </span> </div>
+                        </div>
+                    </td>
+                </tr> 
+                <tr><td colspan='2' style='text-align: center;'>Evaluación ponderada de vendedores</td></tr>
+                    [VENDEDORES]                
+            </tbody>
+        </table>
+
+        <p>Usuarios que evaluaron el proyecto: [CANTIDADUSUARIOS]</p>
+        <!--  style="overflow-x: auto;" -->
+        <div class="tabla">
+            <table>
+                <tr>
+                    <th style="font-size: 9px;">Nombre</th>
+                    <th style="font-size: 9px;">Apellido</th>
+                    <th style="font-size: 9px;">E-mail</th>
+                    <th style="font-size: 9px;">Teléfono</th>
+                    <th style="font-size: 9px;">RUT</th>
+                    <th style="font-size: 9px;">Fecha visita</th>
+                    <th style="font-size: 9px;">Duración (horas)</th>
+                    <th style="font-size: 9px;">Vendedor</th>
+                    <th style="font-size: 9px;">Equipamiento</th>
+                    <th style="font-size: 9px;">Terminaciones</th>
+                    <th style="font-size: 9px;">Conectividad</th>
+                    <th style="font-size: 9px;">Rentabilidad</th>
+                </tr>
+                [VISITANTES]
+            </table>
+        </div>
+        <hr>
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="65" viewBox="0 0 63 65">
+  <g id="Grupo_2660" data-name="Grupo 2660" transform="translate(-0.292 0.402)">
+    <ellipse id="Elipse_50" data-name="Elipse 50" cx="31.5" cy="32.5" rx="31.5" ry="32.5" transform="translate(0.292 -0.402)" fill="#19419b"/>
+    <g id="Icon_ionic-ios-videocam" data-name="Icon ionic-ios-videocam" transform="translate(9.59 19.963)">
+      <path id="Trazado_110" data-name="Trazado 110" d="M34.851,10.8a1.744,1.744,0,0,0-.949.276l-8.828,5.573a.873.873,0,0,0-.408.735V25.14a.873.873,0,0,0,.408.735L33.9,31.447a1.834,1.834,0,0,0,.949.276h2.123a.869.869,0,0,0,.878-.868V11.668a.876.876,0,0,0-.878-.868Z" transform="translate(7.871 -8.187)" fill="#fff"/>
+      <path id="Trazado_111" data-name="Trazado 111" d="M26.9,35.128H7.506A5.273,5.273,0,0,1,2.25,29.882V14.246A5.264,5.264,0,0,1,7.5,9H26.888a5.264,5.264,0,0,1,5.246,5.246V29.871A5.251,5.251,0,0,1,26.9,35.128Z" transform="translate(-2.25 -9)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

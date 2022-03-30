@@ -1,0 +1,53 @@
+.carousel-container {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+.carousel-track {
+  display: flex;
+  height: 100%;
+}
+
+.carousel-card {
+  flex: 0 0 300px;
+  height: 100%;
+  display: flex;
+}
+
+.carousel-title {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.carousel-pagination-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.carousel-pagination {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  padding: 0;
+}
+
+.carousel-pagination li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(50, 50, 50, 0.5);
+}
+
+.carousel-pagination .current {
+  border-radius: 50%;
+  background: #00a72c;
+}

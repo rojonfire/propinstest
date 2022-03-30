@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="563" height="178" viewBox="0 0 563 178">
+  <g id="Grupo_2482" data-name="Grupo 2482" transform="translate(-1032 -6381)">
+    <g id="Grupo_2479" data-name="Grupo 2479" transform="translate(-2 -13)">
+      <rect id="Rectángulo_2151" data-name="Rectángulo 2151" width="557" height="168" rx="47" transform="translate(1040 6404)" fill="#fff"/>
+      <g id="Grupo_2330" data-name="Grupo 2330" transform="translate(769 5819)">
+        <circle id="Elipse_42" data-name="Elipse 42" cx="57.5" cy="57.5" r="57.5" transform="translate(691 612)" fill="#e2eee5"/>
+        <g id="Icon_ionic-ios-videocam" data-name="Icon ionic-ios-videocam" transform="translate(712 648)">
+          <path id="Trazado_122" data-name="Trazado 122" d="M41.083,10.8a2.81,2.81,0,0,0-1.53.444l-14.23,8.982a1.408,1.408,0,0,0-.658,1.184v12.5a1.408,1.408,0,0,0,.658,1.184l14.23,8.982a2.957,2.957,0,0,0,1.53.444H44.5a1.4,1.4,0,0,0,1.415-1.4V12.2A1.411,1.411,0,0,0,44.5,10.8Z" transform="translate(27.779 -6.589)" fill="none" stroke="#19419b" stroke-width="1"/>
+          <path id="Trazado_123" data-name="Trazado 123" d="M41.978,51.113H10.722A8.5,8.5,0,0,1,2.25,42.658v-25.2A8.485,8.485,0,0,1,10.706,9H41.962a8.485,8.485,0,0,1,8.456,8.456V42.641A8.463,8.463,0,0,1,41.978,51.113Z" transform="translate(-2.25 -9)" fill="none" stroke="#19419b" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_2431" data-name="Grupo 2431" transform="translate(299 -497.726)">
+      <circle id="Elipse_44" data-name="Elipse 44" cx="25" cy="25" r="25" transform="translate(733 6878.726)" fill="#19419b"/>
+      <text id="_2" data-name="2" transform="translate(753 6892.726)" fill="#fff" font-size="24" font-family="Comfortaa-SemiBold, Comfortaa" font-weight="600"><tspan x="-1.532" y="21">2</tspan></text>
+    </g>
+  </g>
+</svg>

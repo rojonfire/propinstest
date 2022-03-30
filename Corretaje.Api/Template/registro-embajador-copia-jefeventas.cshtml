@@ -1,0 +1,18 @@
+﻿@using Corretaje.Api.Dto.Proper
+
+@model ProperRegistroEmailDto
+
+<div class="box-cont text-center">
+    <h2>Nuevo embajador registrado en la web</h2>
+    <br>
+    <p>
+        <ul>
+            <li><strong>Nombre:</strong> @Model.Nombres @Model.Apellidos</li>
+            <li><strong>R.U.T:</strong> @Model.Rut</li>
+            <li><strong>Edad:</strong> @Model.Edad</li>
+            <li><strong>Direccion:</strong> @Model.Direccion</li>
+            <li><strong>Teléfono</strong> @Model.Telefono</li>
+            <li><strong>E-mail:</strong> @Model.Email</li>
+        </ul>
+    </p>
+</div>

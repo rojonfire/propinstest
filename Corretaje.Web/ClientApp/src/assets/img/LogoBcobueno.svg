@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150.482" height="36.765" viewBox="0 0 150.482 36.765">
+  <g id="Grupo_2256" data-name="Grupo 2256" transform="translate(-138.088 -26.446)">
+    <g id="Grupo_2141" data-name="Grupo 2141" transform="translate(139.588 28)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M3823.175,227.939h-13.792a1.383,1.383,0,0,1-1.383-1.383v-9.679a1.383,1.383,0,0,1,.616-1.151l13.77-9.179a1.382,1.382,0,0,1,1.564.021l12.971,9.156a1.384,1.384,0,0,1,.585,1.13v9.7a1.383,1.383,0,0,1-1.383,1.383h-4.518" transform="translate(-3808 -206.314)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M3863.133,319.139l5.73-5.73a8.59,8.59,0,0,0,2.557-6.766c-.286-3.311-2.064-8.035-8.832-8.035-5.9,0-8.009,3.583-8.641,6.323a8.524,8.524,0,0,0,2.124,7.584l6,6.6A.734.734,0,0,0,3863.133,319.139Z" transform="translate(-3847.835 -286.677)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <text id="Text_field" data-name="Text field" transform="translate(172.571 56.211)" fill="#fff" font-size="29" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="0">Propins</tspan></text>
+  </g>
+</svg>

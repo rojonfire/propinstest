@@ -1,0 +1,30 @@
+﻿@using Corretaje.Api.Dto.Agenda
+
+@model VisitaUsuarioEmailDto
+
+<div class="box-cont text-center">
+    <h2>Visita agendada</h2>
+    <br>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombreUsuario</li>
+            <li><strong>R.U.T:</strong> @Model.Rut</li>
+            <li><strong>Dirección:</strong> @Model.Direccion</li>
+            <li><strong>Teléfono</strong> @Model.Telefono</li>
+            <li><strong>E-mail:</strong> @Model.Email</li>
+        </ul>
+        Tu visita ha sido agendada para el día @Model.Fecha a las @Model.HoraInicio hrs. Recuerda ser puntual!
+    </p>
+    <a href="https://www.propins.cl/perfil">
+        Ir a mi perfil
+    </a> 
+    || 
+    <a href=@Model.LinkAgregarEventoAGoogleCalendar>
+        Agregar visita a Google Calendar
+    </a> 
+    || 
+    <a href=@Model.LinkAgregarEventoAOutlookCalendar>
+        Agregar visita a Outlook Calendar
+    </a>
+
+</div>

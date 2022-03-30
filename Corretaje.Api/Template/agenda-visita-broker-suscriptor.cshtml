@@ -1,0 +1,42 @@
+﻿@using Corretaje.Api.Dto.Agenda
+
+@model VisitaBrokerSuscriptorEmailDto
+
+<div class="box-cont text-center">
+    <h2>Visita agendada</h2>
+    <br>
+    <h3>Datos del propietario</h3>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombrePropietario</li>
+            <li><strong>Dirección:</strong> @Model.Direccion</li>
+            <li><strong>Teléfono</strong> @Model.TelefonoPropietario</li>
+            <li><strong>E-mail:</strong> @Model.EmailPropietario</li>
+        </ul>
+    </p>
+    <h3>Datos del suscriptor/comprador</h3>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombreSuscriptor</li>
+            <li><strong>Teléfono</strong> @Model.TelefonoSuscriptor</li>
+            <li><strong>E-mail:</strong> @Model.EmailSuscriptor</li>
+        </ul>
+    </p>
+    <h3>Datos del broker</h3>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombreBroker</li>
+            <li><strong>Teléfono</strong> @Model.TelefonoBroker</li>
+            <li><strong>E-mail:</strong> @Model.EmailBroker</li>
+        </ul>
+        La visita ha sido agendada para el día @Model.Fecha a las @Model.HoraInicio hrs. Recuerda ser puntual!
+    </p>
+    <a href=@Model.LinkAgregarEventoAGoogleCalendar>
+        Agregar visita a Google Calendar
+    </a>
+    ||
+    <a href=@Model.LinkAgregarEventoAOutlookCalendar>
+        Agregar visita a Outlook Calendar
+    </a>
+
+</div>

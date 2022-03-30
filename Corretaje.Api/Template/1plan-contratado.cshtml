@@ -1,0 +1,82 @@
+﻿@using Corretaje.Api.Dto.OrdenCompra
+
+@model OrdenDeCompraDto
+
+@{
+    Layout = "~/Template/_Layout.cshtml";
+}
+<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; width: 600px">
+    <tr id="plan-propins">
+        <td class="bg_white">
+            <!-- Welcome id="welcome-propins" -->
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; width: 600px">
+                <tr id="welcome-propins">
+                    <td valign="middle" style="height: 400px;">
+                        <table class="bg_white">
+                            <tr>
+                                <td>
+                                    <div class="box-cont text-center bg-welcome" style="background:url(https://propiblobstorage.blob.core.windows.net/mails/images/portada-welcome.png) 0 0 repeat-x;height: 550px;width: 600px;padding: 0;">
+                                        <div style="padding: 400px 0 0 0;">
+                                            <h2 style="color:#ffffff;">¡Bienvenido a Propins!</h2>
+                                            <p style="color:#ffffff;">Con fecha <strong>@Model.FechaEmision.ToString("dd/MM/yyyy")</strong> Has contratado <br /><strong style="text-decoration: underline;">PLAN @Model.TipoDePlan.ToUpper()</strong></p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- Welcome id="welcome-propins" -->
+
+            <table>
+                <tr>
+                    <td class="bg_white email-section">
+                        <div class="text-center">
+                            <h2>Ubicación Propiedad</h2>
+                            <p>@Model.TipoPropiedad, @Model.Direccion?.Calle.Nombre @Model.Direccion?.Calle.Numero @Model.Direccion?.NumeroDepartamento @Model.Direccion?.RegionNombre @Model.Direccion?.ComunaNombre</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="box-cont">
+                            @if (Model.ServiciosAdicionales.Count > 0)
+                            {
+                                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    @foreach (var servicioAdicional in Model.ServiciosAdicionales)
+                                    {
+                                        <tr style="border-bottom: 1px solid #dee2e6;">
+                                            <td>
+                                                <img src="@servicioAdicional.ImagenUrl" alt="" style="width: 60px; display: block; margin: 5px 0;">
+                                            </td>
+                                            <td class="text-services">
+                                                <p><span class="text-primary">@servicioAdicional.Nombre</span></p>
+                                            </td>
+                                            <td class="text-services" style="text-align: right;"><span style="font-size: 25px;">@servicioAdicional.TipoMoneda @servicioAdicional.Precio</span></td>
+                                        </tr>
+                                    }
+                                    <tr style="border-bottom: 1px solid #dee2e6;">
+                                        <td><span style="font-size: 15px;font-weight: bold;display: block;margin: 5px 0;">Valor total adicionales:</span></td>
+                                        <td>
+                                            <div style="width: 60px; display: block; margin: 5px 0;">
+                                            </div>
+                                        </td>
+                                        <td style="text-align: right;"><span style="font-size: 25px;">UF @Model.ServiciosAdicionales.Sum(x => x.Precio)</span></td>
+                                    </tr>
+                                </table>
+                            }
+                            <br />
+                            <p>
+                                Por un monto de UF @Model.TotalEnUf + IVA (@Math.Ceiling(Model.TotalEnPesoChilenoConIVA).ToString("c") pesos chilenos).
+                                De acuerdo a los términos y condiciones adjuntos
+                            </p>
+                            <br />
+                            Agradecemos su confianza.
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

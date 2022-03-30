@@ -1,0 +1,4 @@
+{
+    "prettier.trailingComma": "all",
+    "editor.formatOnSave": true
+}

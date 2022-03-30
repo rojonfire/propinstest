@@ -1,0 +1,25 @@
+﻿@using Corretaje.Api.Dto.Oferta
+
+@model OfertaDto
+
+<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; width: 600px">
+    <tr id="contra-oferta">
+        <td valign="middle" class="bg_white" style="height: 400px;">
+            <table>
+                <tr>
+                    <td>
+                        <div class="box-cont text-center">
+                            <div class="cont-img"><img src="https://propiblobstorage.blob.core.windows.net/mails/images/contra-oferta.png" alt=""></div>
+                            <h2>¡Tienes una contraoferta!</h2>
+                            <p>
+                                Recuerda que tienes 48 horas para responder.<br />
+                                Revisa tus ofertas en el siguiente enlace para conocer detalles.
+                            </p>
+                            <a href="@Model.UrlContraOferta" class="btn btn-primary btn-lg">Ver contraoferta</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

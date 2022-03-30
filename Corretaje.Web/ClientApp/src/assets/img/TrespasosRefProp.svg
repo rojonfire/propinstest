@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="333" viewBox="0 0 1920 333">
+  <g id="Grupo_2680" data-name="Grupo 2680" transform="translate(0 -232)">
+    <rect id="Rectángulo_2294" data-name="Rectángulo 2294" width="1920" height="333" transform="translate(0 232)" fill="#fff"/>
+    <g id="Grupo_2671" data-name="Grupo 2671" transform="translate(114 68)">
+      <g id="Grupo_2381" data-name="Grupo 2381" transform="translate(25 -796)">
+        <circle id="Elipse_37" data-name="Elipse 37" cx="32.5" cy="32.5" r="32.5" transform="translate(242 1078)" fill="#48999a"/>
+      </g>
+      <text id="_1" data-name="1" transform="translate(288 289)" fill="#fff" font-size="52" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="46">1</tspan></text>
+    </g>
+    <g id="Grupo_2665" data-name="Grupo 2665" transform="translate(121 -16)">
+      <g id="Grupo_2664" data-name="Grupo 2664" transform="translate(1113 -712)">
+        <circle id="Elipse_37-2" data-name="Elipse 37" cx="32.5" cy="32.5" r="32.5" transform="translate(242 1078)" fill="#48999a"/>
+      </g>
+      <text id="_3" data-name="3" transform="translate(1373 374)" fill="#fff" font-size="52" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="46">3</tspan></text>
+    </g>
+    <path id="Trazado_112" data-name="Trazado 112" d="M0,0H1038" transform="translate(443.5 382.5)" fill="none" stroke="#48999a" stroke-width="3"/>
+    <g id="Grupo_2666" data-name="Grupo 2666" transform="translate(161 -16)">
+      <g id="Grupo_2663" data-name="Grupo 2663" transform="translate(523 -712)">
+        <circle id="Elipse_37-3" data-name="Elipse 37" cx="32.5" cy="32.5" r="32.5" transform="translate(242 1078)" fill="#48999a"/>
+      </g>
+      <text id="_2" data-name="2" transform="translate(783 374)" fill="#fff" font-size="52" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="46">2</tspan></text>
+    </g>
+  </g>
+</svg>

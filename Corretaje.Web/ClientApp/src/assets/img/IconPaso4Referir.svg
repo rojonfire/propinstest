@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="105.237" viewBox="0 0 154 105.237">
+  <g id="Grupo_2466" data-name="Grupo 2466" transform="translate(-1515 -1428.763)">
+    <g id="Grupo_2460" data-name="Grupo 2460" transform="translate(380 -475)">
+      <path id="Trazado_51" data-name="Trazado 51" d="M-1246.475,687.724v32.543h21.369v-7.22s2.4-6.425,8.018-6.526,8.132,6.225,8.132,6.225v7.52h21.687V687.724h6.626l-14.647-15.8V655.618h3.1V651.7h-12.952v3.112h2.309v7.631l-13.555-15.563-36.345,40.689Z" transform="translate(2427.731 1258.392)" fill="none" stroke="#48999a" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_2225" data-name="Rectángulo 2225" width="5.29" height="5.29" transform="translate(1187.871 1949.25)" fill="#48999a"/>
+      <rect id="Rectángulo_2226" data-name="Rectángulo 2226" width="5.29" height="5.29" transform="translate(1187.871 1957.929)" fill="#48999a"/>
+      <rect id="Rectángulo_2227" data-name="Rectángulo 2227" width="5.29" height="5.29" transform="translate(1197.759 1949.25)" fill="#48999a"/>
+      <rect id="Rectángulo_2228" data-name="Rectángulo 2228" width="5.29" height="5.29" transform="translate(1197.759 1957.929)" fill="#48999a"/>
+      <rect id="Rectángulo_2229" data-name="Rectángulo 2229" width="5.29" height="5.29" transform="translate(1219.558 1949.189)" fill="#48999a"/>
+      <rect id="Rectángulo_2230" data-name="Rectángulo 2230" width="5.29" height="5.29" transform="translate(1219.558 1957.868)" fill="#48999a"/>
+      <rect id="Rectángulo_2231" data-name="Rectángulo 2231" width="5.29" height="5.29" transform="translate(1229.446 1949.189)" fill="#48999a"/>
+      <rect id="Rectángulo_2232" data-name="Rectángulo 2232" width="5.29" height="5.29" transform="translate(1229.446 1957.868)" fill="#48999a"/>
+    </g>
+    <g id="Grupo_2461" data-name="Grupo 2461" transform="translate(1114 158)">
+      <g id="Grupo_2462" data-name="Grupo 2462" transform="translate(201 256)">
+        <g id="Elipse_37" data-name="Elipse 37" transform="translate(266 1097)" fill="none" stroke="#48999a" stroke-width="1">
+          <circle cx="11" cy="11" r="11" stroke="none"/>
+          <circle cx="11" cy="11" r="10.5" fill="none"/>
+        </g>
+        <text id="_2" data-name="2" transform="translate(273 1101)" fill="#48999a" font-size="14" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="12">2</tspan></text>
+      </g>
+      <g id="Grupo_2464" data-name="Grupo 2464" transform="translate(267 256)">
+        <g id="Elipse_37-2" data-name="Elipse 37" transform="translate(266 1097)" fill="none" stroke="#48999a" stroke-width="1">
+          <circle cx="11" cy="11" r="11" stroke="none"/>
+          <circle cx="11" cy="11" r="10.5" fill="none"/>
+        </g>
+        <text id="_3" data-name="3" transform="translate(273 1101)" fill="#48999a" font-size="14" font-family="Comfortaa-Bold, Comfortaa" font-weight="700"><tspan x="0" y="12">3</tspan></text>
+      </g>
+    </g>
+    <line id="Línea_73" data-name="Línea 73" x2="45" transform="translate(1536.5 1522.5)" fill="none" stroke="#48999a" stroke-width="1"/>
+    <line id="Línea_74" data-name="Línea 74" x2="45" transform="translate(1602.5 1522.5)" fill="none" stroke="#48999a" stroke-width="1"/>
+    <g id="Grupo_2439" data-name="Grupo 2439" transform="translate(1476 276)">
+      <circle id="Elipse_13" data-name="Elipse 13" cx="11" cy="11" r="11" transform="translate(39 1236)" fill="#48999a"/>
+      <path id="Path" d="M0,4.1,1.107,3.04,3.952,5.776,9.959,0l1.107,1.064L3.952,7.9Z" transform="translate(44.908 1243.09)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 382 487">
+  <g id="Grupo_2316" data-name="Grupo 2316" transform="translate(-127 -494)">
+    <rect id="Rectángulo_2139" data-name="Rectángulo 2139" width="382" height="439" rx="57" transform="translate(127 542)" fill="rgba(216,232,222,0.92)"/>
+    <circle id="Elipse_37" data-name="Elipse 37" cx="109.5" cy="109.5" r="109.5" transform="translate(209 494)" fill="#f5f5f5"/>
+    <g id="_360-02" data-name="360-02" transform="translate(221.39 534.94)">
+      <text id="_360_" data-name="360º" transform="translate(49.718 71.06)" fill="#00a72c" font-size="52" font-family="Comfortaa, Cursive" font-weight="700"><tspan x="0" y="0">360º</tspan></text>
+      <path id="Trazado_59" data-name="Trazado 59" d="M92.247,35.33c19.713,4.2,32.38,10.783,32.38,18.137,0,12.73-37.88,23.049-84.628,23.049" transform="translate(57.238 21.462)" fill="none" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.45"/>
+      <path id="Trazado_60" data-name="Trazado 60" d="M81.944,75.864C42.519,73.917,12.61,64.524,12.61,53.216c0-7.137,11.926-13.533,30.65-17.766" transform="translate(0 21.712)" fill="none" stroke="#00a72c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.45"/>
+      <path id="Trazado_61" data-name="Trazado 61" d="M34.254,43.34,31.535,45.9,44.2,59.221,29.99,70.9l2.379,2.873,17.3-14.213Z" transform="translate(36.32 38.2)" fill="#00a72c"/>
+    </g>
+  </g>
+</svg>

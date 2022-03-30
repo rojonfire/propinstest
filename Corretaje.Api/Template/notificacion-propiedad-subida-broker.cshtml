@@ -1,0 +1,32 @@
+﻿@using Corretaje.Api.Dto.Propiedad
+
+@model PropiedadSubidaBrokerEmailDto
+
+<div class="box-cont text-center">
+    <h2>Nueva propiedad subida por Broker</h2>
+    <br>
+    <h3>Broker</h3>
+    <p>
+        <ul>
+            <li>
+                <strong>Nombre:</strong> @Model.NombreBroker
+            </li>
+        </ul>
+    </p>
+    <h3>Propietario</h3>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombreCliente</li>
+            <li><strong>R.U.T:</strong> @Model.RutCliente</li>
+            <li><strong>E-mail:</strong> @Model.EmailCliente</li>
+        </ul>
+    </p>
+    <h3>Propiedad</h3>
+    <p>
+        <ul>
+            <li><strong>Dirección:</strong> @Model.Direccion</li>
+            <li><strong>Barrio:</strong> @Model.Barrio</li>
+            <li><strong>Comuna:</strong> @Model.Comuna</li>
+        </ul>
+    </p>
+</div>

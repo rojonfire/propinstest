@@ -1,0 +1,150 @@
+﻿@using Corretaje.Api.Dto.PdfContrato
+
+@model PromesaDeCompraVentaDto
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Promesa Compra Venta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contratos">
+    <style>
+        body {
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: justify;
+        }
+
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .w-100 {
+            width: 100%
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center w-100">
+            <h1>PROMESA COMPRA VENTA</h1>
+        </div>
+
+        <h4>PROPIETARIO A COMPRADOR.</h4>
+
+        <p>
+            En Santiago de Chile, a <strong>@Model.GetFechaContratoDeArriendo()</strong>, comparecen: don <strong>@Model.ProminenteVendedora.Nombre</strong>, de nacionalidad <strong>@Model.ProminenteVendedora.Nacionalidad</strong>, estado civil <strong>@Model.ProminenteVendedora.EstadoCivil</strong>, profesión u oficio <strong>@Model.ProminenteVendedora.ProfesionOficio</strong>, cédula de identidad número <strong>@Model.ProminenteVendedora.CedulaIdentidad</strong>, con domicilio en <strong>@Model.ProminenteVendedora.Domicilio.NombreCalle</strong> N°<strong>@Model.ProminenteVendedora.Domicilio.NumeroDepartamento</strong>, comuna de <strong>@Model.ProminenteVendedora.Domicilio.Comuna</strong>, Región Metropolitana, en adelante denominado la “Promitente Vendedora”, por una parte; y por la otra, don <strong>@Model.ProminenteCompradora.Nombre</strong>, de nacionalidad <strong>@Model.ProminenteCompradora.Nacionalidad</strong>, profesión u oficio <strong>@Model.ProminenteCompradora.ProfesionOficio</strong>, estado civil <strong>@Model.ProminenteCompradora.ProfesionOficio</strong>, cédula de identidad número <strong>@Model.ProminenteCompradora.CedulaIdentidad</strong>, con domicilio en <strong>@Model.ProminenteCompradora.Domicilio.NombreCalle</strong> N°<strong>@Model.ProminenteCompradora.Domicilio.NumeroDepartamento</strong>, comuna de <strong>@Model.ProminenteCompradora.Domicilio.Comuna</strong>, Región Metropolitana, en adelante denominada también como la “Promitente Compradora”; los comparecientes mayores de edad quienes acreditaron su identidad con las cédulas antes mencionadas, y exponen que han convenido en celebrar el siguiente contrato de Promesa de Compraventa:
+        </p>
+        <ul>
+            <li>
+                <span class="underline">Primero:</span>
+                <br/>
+                Don <strong>@Model.ProminenteVendedora.Nombre</strong> es dueño de la propiedad ubicada en <strong>@Model.Propiedad.Direccion.NombreCalle</strong> número <strong>@Model.Propiedad.Direccion.NumeroCalle</strong> Comuna de <strong>@Model.Propiedad.Direccion.Comuna</strong>, Región Metropolitana, Rol N°<strong>@Model.Propiedad.Rol</strong>. El dominio se encuentra inscrito a fojas <strong>@Model.Propiedad.ForjasNombre</strong> número <strong>@Model.Propiedad.ForjasNumero</strong>, del Registro de Propiedad del año <strong>@Model.Propiedad.PropiedadAñoRegistro</strong> del Conservador de Bienes Raíces de Santiago.
+            </li>
+            <li>
+                <span class="underline">Segundo:</span> Promesa de compraventa.
+                <br/>
+                Por el presente instrumento, don <strong>@Model.ProminenteVendedora.Nombre</strong>, promete vender, ceder y transferir a don <strong>@Model.ProminenteCompradora.Nombre</strong>, quien a su vez, promete comprar, adquirir y aceptar para sí, el inmueble singularizado en la Cláusula Primera anterior.
+            </li>
+            <li>
+                <span class="underline">Tercero:</span>
+                Precio.
+                <br/>
+                El precio único y total de la compraventa prometida por el inmueble singularizado en la Cláusula Primera anterior, será la cantidad equivalente en pesos moneda nacional a UF <strong>{UF}</strong>, según el valor de ésta a la fecha del pago efectivo, que la Promitente Compradora se obliga a pagar a la Promitente Vendedora al momento de la firma de la escritura de compraventa, mediante depósito a plazo y/o vale vistas, los cuales deberán emitirse a la orden de la Promitente Compradora y ser endosados en blanco, en el momento de la firma del contrato de compraventa prometido. Los referidos documentos quedarán en poder del Notario que autorice la compraventa definitiva, al momento de suscripción de la misma, con instrucciones de ser entregados a la Promitente Vendedora o, quien la represente, una vez que el inmueble objeto del presente contrato se encuentre debidamente inscrito a nombre de la Promitente Compradora, en el Registro de Propiedad del Conservador de Bienes Raíces de Santiago, libre de toda hipoteca, gravamen, prohibición, interdicción de enajenar, litigio, con excepción de cualquier gravamen y/o prohibición establecida por la Promitente Compradora, Reglamento de Copropiedad si lo hubiere y servidumbres constituidas con anterioridad al acto de la compraventa. Lo anterior se acreditará por medio de un certificado de Hipotecas y gravámenes, prohibiciones e interdicciones de enajenar que registre las inscripciones de una data de 30 años anteriores a la fecha de inscripción de dominio.
+                <br/>
+                Por otra parte, la Promitente Compradora declara que cumple con todos los requisitos necesarios para acceder a este financiamiento, razón por la cual esta materia será de su exclusiva responsabilidad, asumiendo la responsabilidad que correspondiere, en caso de no cumplir con ello.
+            </li>
+            <li>
+                <span class="underline">Cuarto:</span> Condiciones de la venta.
+                <br/>
+                La venta se efectuará como especie o cuerpo cierto, en el estado en que se encuentra actualmente el inmueble objeto del presente contrato, con las plantaciones, construcciones e instalaciones existentes en el inmueble; con todos sus usos, costumbres, derechos y servidumbres activas y pasivas; libres los mismos de hipotecas, gravámenes, prohibiciones, e interdicciones de enajenar, litigios, declaraciones de bien familiar, derechos preferentes de terceros o deudas, cualquiera sea su naturaleza, respondiendo la Promitente Vendedora del saneamiento de conformidad a la ley si fuere el caso.
+            </li>
+            <li>
+                <span class="underline">Quinto:</span> Entrega.
+                <br/>
+                La entrega material de la Propiedad, con todas sus cuentas de consumo, contribuciones al día, incluso las respectivas proporciones hasta la fecha de la entrega y respondiendo la Prometiente Vendedora al saneamiento en conformidad a la ley, se efectuará a más tardar dentro del quinto día hábil siguiente en que se ponga a disposición de la Prometiente Vendedora una fotocopia de la inscripción de dominio a nombre de la Prometiente Compradora y una fotocopia del certificado de hipotecas y gravámenes del inmueble singularizado en la cláusula Primera del presente contrato, que acredite que éste se encuentra libre de toda hipoteca, gravamen, prohibición o embargo, salvo los constituidos en la misma escritura de compraventa y/o servidumbres constituidas con anterioridad. Para asegurar el cumplimiento de la obligación de la vendedora de entregar la propiedad en el plazo indicado, las partes acuerdan una multa como avaluación anticipada de perjuicios de 5 UF diarias a partir del retraso en la entrega.
+            </li>
+            <li>
+                <span class="underline">Sexto:</span> Época para la celebración del contrato prometido.
+                <br/>
+                La compraventa prometida se otorgará a más tardar, dentro del plazo de 90 días corridos contados desde la fecha del presente instrumento, plazo que las partes convienen con el carácter de extintivo. Si el plazo terminare en día sábado domingo o festivo, al día hábil siguiente. La referida escritura será otorgada ante el Notario Público de Santiago que indique el Banco o Institución Financiera que otorgue el crédito a la Promitente Compradora o por esta misma si no interviniera un banco, sobre la base de una minuta preparada por los abogados del banco, institución financiera, o comprador si no mediare financiamiento. El otorgamiento del contrato prometido supone que la escritura respectiva se encuentre en condiciones de ser autorizada legalmente por el Notario antes indicado. En consecuencia, deben encontrarse firmadas por todas las personas que hayan de suscribirla, las cuales deben haber exhibido y dejado constancia en la Notaría de la totalidad de los documentos que la ley exige para que pueda dársele curso y deben haberse pagado los impuestos y derechos notariales correspondientes o dejado su importe en poder del Notario.
+                <br/>
+                Las partes podrán, de común acuerdo, prorrogar el plazo indicado dejando constancia por escrito.
+            </li>
+            <li>
+                <span class="underline">Séptimo:</span> Condición para la celebración del contrato prometido.
+                <br/>
+                La presente promesa de compraventa y, en consecuencia, la suscripción de la compraventa definitiva, quedará sujeta a la condición de que los títulos de dominio del inmueble objeto del presente contrato sean aprobados por la fiscalía del banco o institución financiera que financiará la operación a la promitente Compradora o del abogado de su exclusiva confianza bajo los criterios comúnmente utilizados por los bancos en operaciones de similar naturaleza si no mediare financiamiento bancario. Los títulos se entenderán aprobados si el referido banco o abogado de la promitente compradora no efectúa reparos dentro de los 90 días corridos siguientes a la fecha presente instrumento, o bien, si efectuados dichos reparos, los mismos fueren debidamente corregidos por la Promitente Vendedora dentro del mismo plazo.
+                <br/>
+                La promitente vendedora se obliga a entregar a la promitente compradora todos los títulos y antecedentes que fueren pertinentes, dentro de los 15 días corridos siguientes a la suscripción del presente instrumento.
+            </li>
+            <li>
+                <span class="underline">Octavo:</span> Multa.
+                <br/>
+                Si el contrato de compraventa prometido no se otorgara en la oportunidad debida por hecho o culpa de una de las partes, como será la negativa injustificada de una de ellas a otorgarla u otro incumplimiento cualquiera, la parte diligente tendrá derecho a una multa o indemnización de perjuicios que se devengará sin necesidad de requerimiento alguno, perjuicios que anticipadamente las partes avalúan en <strong>$@Model.MontoMulta</strong>.- (el equivalente al 10% del precio de venta), sin perjuicio de otros derechos.
+                <br/>
+                Para facilitar el cobro de la multa pactada en este contrato, de su cumplimiento y del pago de la multa o la indemnización de perjuicios referida en el párrafo anterior, tanto la Promitente Vendedora como la Promitente Compradora, dejan con instrucciones al Notario que autoriza este documento, cheques sin fecha, por la suma de <strong>$@Model.MontoCheques</strong> firmados,  cruzados y nominativos por cada una de las partes contratantes, a nombre de la contraparte.
+            </li>
+            <li>
+                <span class="underline">Noveno:</span> Gastos.
+                <br/>
+                Los derechos y gastos que se originen con ocasión del otorgamiento del presente instrumento serán de cargo de ambas partes por mitades; y los derechos y gastos que se originen con ocasión del otorgamiento de la compraventa definitiva y de la inscripción de la compraventa en el Conservador de Bienes Raíces competente, serán de cargo exclusivo de la Promitente Compradora.
+            </li>
+            <li>
+                <span class="underline">Décimo:</span> Arbitraje.
+                <br/>
+                Cualquier dificultad o controversia que se produzca entre los contratantes respecto de la aplicación, interpretación, duración, validez o ejecución de este contrato o cualquier otro motivo será sometida a arbitraje, conforme al Reglamento Procesal de Arbitraje del Centro de Arbitraje y Mediación de Santiago, vigente al momento de solicitarlo. Las partes confieren poder especial irrevocable a la Cámara de Comercio de Santiago A.G., para que, a petición escrita de cualquiera de ellas, designe a un árbitro arbitrador de entre los integrantes del cuerpo arbitral del Centro de Arbitraje y Mediación de Santiago. En contra de las resoluciones del arbitrador no procederá recurso alguno, renunciando las partes expresamente a ellos. El árbitro queda especialmente facultado para resolver todo asunto relacionado con su competencia y/o jurisdicción.
+            </li>
+            <li>
+                <span class="underline">Décimo Primero:</span> Domicilio especial.
+                <br/>
+                Para todos los efectos del presente contrato, las partes fijan como su domicilio especial la Comuna de Santiago.
+            </li>
+            <li>
+                <span class="underline">Décimo Segundo:</span> Precio del servicio.
+                <br/>
+                Por este acto la parte Promitente Vendedora declara que ha convenido celebrar el presente contrato por intermedio de Propins SpA, rol único tributario N°76.994.087-1, representada por don Álvaro Javier Devéscovi Izurieta, cédula nacional de identidad número quince millones trescientos ochenta y cinco mil cuarenta y cuatro guión cinco, acordando pagar el equivalente en moneda de curso legal a UF55 + IVA al día del pago. Para garantizar dicho pago, la Promitente Vendedora deja con Instrucciones al Notario que otorga el presente instrumento, cheque sin fecha, firmado, cruzado y nominativo a nombre de don Álvaro Javier Devéscovi Izurieta.
+            </li>
+            <li>
+                <span class="underline">Décimo Tercero:</span>
+                <br/>
+                El presente contrato se firma en tres ejemplares del mismo tenor.
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

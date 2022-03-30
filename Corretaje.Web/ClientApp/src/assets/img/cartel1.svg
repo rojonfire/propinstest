@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_3">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_3" data-name="Mesa de trabajo – 3" clip-path="url(#clip-Mesa_de_trabajo_3)">
+    <rect width="72" height="72" fill="#fff"/>
+    <g id="Grupo_2948" data-name="Grupo 2948" transform="translate(-68 -25.8)">
+      <path id="Trazado_975" data-name="Trazado 975" d="M131.5,47.2H74V39.9h57.5l4.2,3.6Z" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Trazado_976" data-name="Trazado 976" d="M87.4,47V89.2H79.7V47" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Trazado_977" data-name="Trazado 977" d="M79.7,39.8v-5h7.7V40" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="Elipse_51" data-name="Elipse 51" cx="0.8" cy="0.8" r="0.8" transform="translate(82.8 42.7)" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectángulo_2449" data-name="Rectángulo 2449" width="30.4" height="21.3" transform="translate(93.4 52)" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Línea_121" data-name="Línea 121" y2="4.8" transform="translate(98.3 47.2)" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Línea_122" data-name="Línea 122" y2="4.8" transform="translate(118.1 47.2)" fill="none" stroke="#4a4a4a" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <path id="Icon_ionic-md-home" data-name="Icon ionic-md-home" d="M10.609,21.861V16.074h4.34v5.787h4.413V13.181h2.821L12.779,4.5l-9.4,8.681H6.2v8.681Z" transform="translate(27.625 23.639)" fill="#4a4a4a"/>
+  </g>
+</svg>

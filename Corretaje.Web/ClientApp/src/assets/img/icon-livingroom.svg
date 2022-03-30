@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="icon-livingroom" transform="translate(-244 -941)">
+    <circle id="Elipse_9" data-name="Elipse 9" cx="22.5" cy="22.5" r="22.5" transform="translate(244 941)" fill="#fff"/>
+    <g id="noun_furniture_1544958" transform="translate(250.798 946.806)">
+      <g id="Grupo_578" data-name="Grupo 578" transform="translate(2 1.994)">
+        <path id="Trazado_1637" data-name="Trazado 1637" d="M2.473,44.2h1.42v.947H4.84V44.2h14.2v.947h.947V44.2h1.42a.473.473,0,0,0,.473-.473V36.154a.473.473,0,0,0-.473-.473h-1.42V30.473A.473.473,0,0,0,19.516,30H4.367a.473.473,0,0,0-.473.473v5.207H2.473A.473.473,0,0,0,2,36.154v7.574A.473.473,0,0,0,2.473,44.2ZM16.2,43.255H7.681V39.468H16.2Zm4.734-6.627v6.627H17.149V36.627ZM4.84,30.947h14.2v4.734H16.675a.473.473,0,0,0-.473.473v2.367H7.681V36.154a.473.473,0,0,0-.473-.473H4.84ZM2.947,36.627H6.734v6.627H2.947Z" transform="translate(-2 -16.742)" fill="#4a4a4a" stroke="#4a4a4a" stroke-width="0.2"/>
+        <path id="Trazado_1638" data-name="Trazado 1638" d="M42.469,11.468h3.787v16.1H44.363a.473.473,0,0,0-.473.473V29.93a.473.473,0,0,0,.473.473H49.1a.473.473,0,0,0,.473-.473V28.037a.473.473,0,0,0-.473-.473H47.2v-16.1h3.787a.465.465,0,0,0,.469-.525l-.947-8.521A.473.473,0,0,0,50.044,2H43.416a.473.473,0,0,0-.473.421L42,10.942a.466.466,0,0,0,.473.525ZM48.624,28.51v.947H44.836V28.51ZM43.842,2.947h5.775l.843,7.574H43Z" transform="translate(-23.06 -1.997)" fill="#4a4a4a" stroke="#4a4a4a" stroke-width="0.2"/>
+        <path id="Trazado_1639" data-name="Trazado 1639" d="M9.473,13.358H21.782a.473.473,0,0,0,.473-.473V5.311a.473.473,0,0,0-.473-.473h-3.12l-2.7-2.7a.473.473,0,0,0-.672,0l-2.7,2.7H9.473A.473.473,0,0,0,9,5.311v7.574A.473.473,0,0,0,9.473,13.358ZM15.627,3.138l1.7,1.7h-3.4ZM9.947,5.784H21.308v6.627H9.947Z" transform="translate(-5.686 -1.994)" fill="#4a4a4a" stroke="#4a4a4a" stroke-width="0.2"/>
+        <path id="Trazado_1640" data-name="Trazado 1640" d="M13,16.734h9.468V12H13Zm.947-3.787h7.574v2.84H13.947Z" transform="translate(-7.793 -7.263)" fill="#4a4a4a" stroke="#4a4a4a" stroke-width="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

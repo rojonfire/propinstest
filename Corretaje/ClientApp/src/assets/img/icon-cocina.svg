@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="icon-cocina" transform="translate(-244 -941)">
+    <circle id="Elipse_9" data-name="Elipse 9" cx="22.5" cy="22.5" r="22.5" transform="translate(244 941)" fill="#fff"/>
+    <g id="noun_Kitchen_2317914" transform="translate(249.6 945.348)">
+      <path id="Trazado_1650" data-name="Trazado 1650" d="M31.261,9.55H18.687a.488.488,0,0,0-.5.48V21.039H15.628V17.232a.488.488,0,0,0-.5-.48H8.156a.488.488,0,0,0-.5.48v3.807H3.5a.488.488,0,0,0-.5.48v1.44a.488.488,0,0,0,.5.48h.61V33.771a.488.488,0,0,0,.5.48h26.66a.488.488,0,0,0,.5-.48V10.03A.488.488,0,0,0,31.261,9.55Zm-12.078.96H30.765v6.107H19.183Zm-10.531,7.2h5.984v3.327H8.652ZM3.992,22h14.2v.48H3.992ZM5.1,23.439H18.192v9.852H5.1Zm14.086,9.852V17.577H30.765V33.291Z" transform="translate(0 -2.885)" fill="#4a4a4a"/>
+      <rect id="Rectángulo_1191" data-name="Rectángulo 1191" width="0.992" height="3.894" transform="translate(20.522 20.602)" fill="#4a4a4a"/>
+      <rect id="Rectángulo_1192" data-name="Rectángulo 1192" width="0.992" height="2.117" transform="translate(20.522 9.617)" fill="#4a4a4a"/>
+      <path id="Trazado_1651" data-name="Trazado 1651" d="M9.377,4V7.946A1.816,1.816,0,0,0,7.89,9.708v1.56a.488.488,0,0,0,.5.48h2.945a.488.488,0,0,0,.5-.48V9.708a1.816,1.816,0,0,0-1.487-1.762V4Zm1.487,5.708v1.08H8.9V9.708a.854.854,0,0,1,.868-.84h.218a.854.854,0,0,1,.868.84Z" transform="translate(-2.465 0)" fill="#4a4a4a"/>
+      <path id="Trazado_1652" data-name="Trazado 1652" d="M22.237,4V7.946A1.816,1.816,0,0,0,20.75,9.708v1.56a.488.488,0,0,0,.5.48h2.945a.488.488,0,0,0,.5-.48V9.708A1.816,1.816,0,0,0,23.2,7.946V4Zm1.487,5.708v1.08H21.756V9.708a.854.854,0,0,1,.868-.84h.233a.854.854,0,0,1,.853.84Z" transform="translate(-8.949 0)" fill="#4a4a4a"/>
+      <rect id="Rectángulo_1193" data-name="Rectángulo 1193" width="0.992" height="1.407" transform="translate(9.332 15.787)" fill="#4a4a4a"/>
+    </g>
+  </g>
+</svg>

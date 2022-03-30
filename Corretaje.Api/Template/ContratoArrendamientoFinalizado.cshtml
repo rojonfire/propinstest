@@ -1,0 +1,172 @@
+﻿@using Corretaje.Api.Dto.PdfContrato
+
+@model ContratoDeArrendamientoDto
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contrato Arriendo Propins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contratos">
+    <style>
+        body {
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: justify;
+        }
+
+        .container {
+            width: 90%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+        }
+
+        .w-100 {
+            width: 100%
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center w-100">
+            <h1>CONTRATO DE ARRENDAMIENTO</h1>
+        </div>
+        <p>
+            En Santiago de Chile, a <strong>@Model.GetFechaContratoDeArriendo()</strong>, comparecen: como <strong>“Arrendador”</strong>, don <strong>@Model.Arrendador.Nombre</strong>, de nacionalidad <strong>@Model.Arrendador.Nacionalidad</strong>, estado civil <strong>@Model.Arrendador.EstadoCivil</strong>, cédula de identidad número <strong>@Model.Arrendador.CedulaIdentidad</strong>, con domicilio en <strong>@Model.Arrendador.Domicilio.Comuna</strong> Nº<strong>@Model.Arrendador.Domicilio.NumeroCalle</strong>, departamento N°<strong>@Model.Arrendador.Domicilio.NumeroDepartamento</strong>, comuna de <strong>@Model.Arrendador.Domicilio.Comuna</strong>; y como <strong>''Arrendatario''</strong> don <strong>@Model.Arrendatario.Nombre</strong>, de nacionalidad <strong>@Model.Arrendatario.Nacionalidad</strong>, estado civil <strong>@Model.Arrendatario.EstadoCivil</strong>,  cédula de identidad número <strong>@Model.Arrendatario.CedulaIdentidad</strong>, con domicilio en <strong>@Model.Arrendatario.Domicilio.Comuna</strong> N°<strong>@Model.Arrendatario.Domicilio.NumeroCalle</strong>, comuna de <strong>@Model.Arrendatario.Domicilio.Comuna</strong>; los comparecientes son mayores de edad y exponen que han convenido en celebrar el siguiente contrato de arrendamiento:
+        </p>
+
+        <h4>1. PROPIEDAD.</h4>
+
+        <p>
+            El arrendador da en arrendamiento al arrendatario, quien acepta para sí, la propiedad ubicada en calle <strong>@Model.Propiedad.Direccion.Comuna</strong> Nº<strong>@Model.Propiedad.Direccion.NumeroCalle</strong>, departamento N°<strong>@Model.Propiedad.Direccion.NumeroDepartamento</strong>, estacionamientos N°<strong>@Model.Propiedad.CantidadDeEstacionamientos</strong> y bodega N°<strong>@Model.Propiedad.CantidadDeBodegas</strong>, todos en la comuna de <strong>@Model.Propiedad.Direccion.Comuna</strong>, Región Metropolitana, que destinará exclusivamente a habitación. Se comprenden, también, los artefactos, instalaciones y especies que se singularizan en el inventario suscrito por el Arrendador y el Arrendatario y que se considerará parte del presente contrato.
+        </p>
+        <h4>2. RENTA.</h4>
+        <p>
+            La renta mensual de arrendamiento será la suma equivalente en moneda de curso legal a  UF <strong>@Model.RentaMontoUf</strong>.- al día de pago del correspondiente mes.
+            La renta se pagará por mes anticipado, dentro de los primeros cinco días de cada mes, depositando en la <strong>Cuenta Corriente número @Model.CuentaCorriente.Numero</strong>, del Banco <strong>@Model.CuentaCorriente.BancoNombre</strong> a nombre de <strong>@Model.CuentaCorriente.TitularNombre</strong>, cédula de identidad numero <strong>@Model.CuentaCorriente.TitularCedulaIdentidad</strong>. El pago de la renta, su fecha y monto, se acreditará a través del original de la respectiva colilla de depósito o comprobante de transferencia electrónica al correo <strong>@Model.CuentaCorriente.TitularCorreoElectronico</strong>, siempre y cuando los fondos aparezcan efectivamente disponibles en la cuenta corriente antes referida. En caso contrario, el pago se entenderá por no efectuado.
+        </p>
+        <h4>3. OTROS PAGOS.</h4>
+        <p>
+            El Arrendatario estará obligado a pagar los gastos comunes o servicios especiales que puedan corresponder al inmueble. Además, estará obligado a pagar con toda puntualidad y a quien corresponda los consumos de luz, gas, agua potable, agua de riego, extracción de basura y demás consumos y servicios que puedan no estar incluidos en el cobro de los gastos comunes o servicios especiales. El atraso de un mes en cualquiera de los pagos indicados dará derecho al Arrendador para suspender los servicios respectivos. En este acto, la parte Arrendataria se obliga con la parte Arrendadora a enviar mensualmente el comprobante del pago de los gastos comunes de la propiedad al correo <strong>@Model.Arrendador.CorreoElectronico</strong>.
+        </p>
+        <h4>4. PLAZOS.</h4>
+        <p>
+            El presente contrato de arrendamiento comenzará a regir el día <strong>@Model.Plazos.GetFechaDeInicio()</strong> y expirará el día <strong>@Model.Plazos.GetFechaDeFin()</strong>, renovándose tácita y automáticamente por períodos de <strong>@Model.Plazos.MesesPeriodoDeRenovacion</strong> meses cada vez, salvo que alguna de las partes, mediante carta certificada enviada al domicilio de la contraparte con a lo menos 60 días de anticipación al vencimiento del plazo original o de cualquiera de sus prórrogas, manifieste su voluntad en el sentido de no renovar el contrato y, salvo también, que con anterioridad al término del período inicial o de cualquiera de sus prórrogas, se originen otras causas de terminación del contrato, como el no pago de rentas, el destino de la propiedad por parte del Arrendatario a otros fines que los indicados en este contrato, o la subarriende sin el consentimiento expreso y por escrito del Arrendador, o la ceda a cualquier título en todo o parte, o le cause a la propiedad cualquier perjuicio o daño que no sea subsanable, o si no mantiene la propiedad en perfecto estado de conservación y aseo, o no reparare inmediatamente y a su costa los desperfectos ocasionados por el uso a que la someta, o por su hecho o culpa, o de las personas que vivan en ella, o se atrasare en el pago de las cuentas por consumo, o se haga variación de cualquier especie en la propiedad sin el consentimiento escrito del arrendador o de quien lo represente.
+        </p>
+        <p>
+            En el evento que el Arrendatario no restituyere la propiedad en la fecha de término del arrendamiento –sea transcurrido el primer período o cualquiera de sus prórrogas- continuará obligado a pagar mensualmente la suma correspondiente a la renta convenida hasta que efectúe la restitución del inmueble (Art. 6º Ley 18.101), sin perjuicio de que deberá pagar, además a título de multa, una cantidad equivalente al 50% de la referida suma. En consecuencia, el Arrendatario que no restituyere la propiedad a la fecha de expiración del plazo de su contrato de arrendamiento, deberá pagar mes a mes la renta de arrendamiento convenida, aumentada en un 50%, sin perjuicios de los derechos del Arrendador para exigir el lanzamiento del Arrendatario.
+        </p>
+        <h4>5. MULTAS EN CASO DE MORA.</h4>
+        <p>
+            El simple retardo en el pago de la renta mensual de arrendamiento o de los gastos comunes, constituirá al Arrendatario en mora por un período completo, para todos los efectos del artículo mil novecientos setenta y siete del Código Civil. El retardo en el pago de la renta de arrendamiento o de los gastos comunes, además, obligará al Arrendatario al pago de una multa diaria, equivalente al uno por ciento de la renta mensual y/o de los gastos comunes, según sea el caso, por cada día de atraso. Además, el Arrendatario deberá indemnizar al Arrendador de todos los gastos de cobranza, judiciales o extrajudiciales, incluyendo de manera enunciativa más no limitativa, gastos por honorarios legales, mediación, transporte, comunicación o cualquier otro tipo de gasto o costo en los que incurra el Arrendador con motivo del retraso del Arrendatario.
+        </p>
+        <h4>6. VISITAS AL INMUEBLE.</h4>
+        <p>
+            El Arrendatario se obliga a dar las facilidades necesarias para que el Arrendador o quien lo represente pueda visitar el inmueble cuando lo desee. Asimismo, en caso de que el dueño desee vender o arrendar la propiedad, durante los dos últimos meses de vigencia del contrato, el Arrendatario deberá otorgar las facilidades necesarias, para que la propiedad sea visitada a lo menos tres veces por semana por los posibles interesados, en los días y horas que las partes previamente convengan. A falta de acuerdo, el Arrendatario se obliga a permitir dichas visitas durante dos horas cada día, entre las 12:00 y 18:00 horas, tres días cada semana.
+        </p>
+        <h4>7. TERMINACIÓN ANTICIPADA DEL CONTRATO.</h4>
+        <p>
+            Queda prohibido al Arrendatario y su infracción acarreará el término ipso facto del presente contrato:
+        </p>
+        <ol type="a">
+            <li>Pagar la renta de arrendamiento fuera del plazo estipulado en este contrato, ello sin perjuicio de lo dispuesto en el Art. 1.945 del Código Civil.</li>
+            <li>Destinar la propiedad a cualquier otro fin que no sea el indicado en este contrato.</li>
+            <li>
+                Ceder en todo o en parte del contrato de arrendamiento a cualquier título o subarrendar en forma total o parcial el inmueble, sin autorización previa del Arrendador. La cesión del arrendamiento o subarrendamiento con infracción de esta prohibición hará al Arrendatario y a su codeudor solidario responsable de todos los perjuicios que de ellos puedan derivarse para el Arrendador.
+                Sin perjuicio de lo anterior, el Arrendador podrá poner término de inmediato al presente contrato por las siguientes infracciones por parte del Arrendatario:
+                <ol type="I">
+                    <li>No mantener la propiedad arrendada en buen estado de conservación.</li>
+                    <li>Atrasarse en el pago de las cuentas de agua, luz, gas, teléfono, gastos comunes, etcétera.</li>
+                    <li>Hacer mejoras o variaciones en la propiedad arrendada sin el consentimiento previo del Arrendador.</li>
+                    <li>Causar molestias reiteradas a los vecinos y no respetar el reglamento de copropiedad existente o que pudiera existir.</li>
+                </ol>
+            </li>
+        </ol>
+        <h4>8. MEJORAS.</h4>
+        <p>
+            El Arrendador no tendrá obligación de hacer mejoras en el inmueble. Las mejoras que pueda efectuar el Arrendatario, que no puedan ser retiradas sin detrimento del inmueble arrendado, quedarán en beneficio de la propiedad desde el momento mismo que sean ejecutadas, sin que el Arrendador deba pagar suma alguna por ellas, cualquiera sea su carácter, naturaleza o monto, sin perjuicio de poder convenirse otra norma por escrito.
+        </p>
+        <p>
+            Toda transformación en el inmueble deberá contar con la aprobación previa y escrita del Arrendador o de quien lo represente.
+        </p>
+        <h4>9. MANTENCIÓN DEL INMUEBLE.</h4>
+        <p>
+            Será obligación del Arrendador mantener la propiedad arrendada en estado de servir para el fin que ha sido arrendada, haciendo durante el arrendamiento las reparaciones que sean necesarias para tal objeto, a excepción de las “reparaciones locativas”, que serán de cargo del Arrendatario.
+        </p>
+        <p>
+            Se entenderá por “reparaciones locativas” aquellas que según la costumbre son normalmente de cargo de los arrendatarios y, en general, la reparación de deterioros o desperfectos que se producen por culpa del Arrendatario o de las personas por las cuales éste responde. Especialmente, se considerarán reparaciones locativas las siguientes: las relativas a la mantención en perfecto estado de funcionamiento de las llaves de los artefactos, llaves de paso, válvulas y flotadores de los excusados, enchufes, timbres e interruptores de la instalación eléctrica, los trabajos normales  de mantención y funcionamiento de los servicios de calefacción y agua caliente.
+        </p>
+        <p>
+            El Arrendador declara que si se produjeren deterioros en la propiedad considerados de cargo del propietario por la ley, sean estos, vicios ocultos, filtraciones, roturas de cañerías u otros, que se hayan producido por causa ajena al Arrendatario o a las personas que viven con él, el Arrendador los hará reparar por su cuenta y orden, inmediatamente tomado conocimiento del aviso por escrito dado por el Arrendatario en tal sentido. Si transcurridos 15 días del mencionado aviso, las reparaciones no han sido efectuadas, el Arrendatario tendrá derecho a hacerlos reparar por su cuenta y descontar los gastos del próximo mes de arriendo.
+        </p>
+        <h4>10. ROBOS Y PERJUICIOS.</h4>
+        <p>
+            El Arrendador no responderá en manera alguna por robos que puedan ocurrir en la propiedad arrendada o por perjuicios que puedan producirse por incendios, inundaciones, filtraciones, rotura de cañerías, efectos de humedad o calor, desperfectos en el ascensor y cualquier caso fortuito o de fuerza mayor.
+        </p>
+        <h4>11. GARANTÍA DE ARRIENDO.</h4>
+        <p>
+            A fin de garantizar la conservación de la propiedad, su restitución en el mismo estado en que la recibe, la conservación de las especies que se indican en el inventario, el pago de los perjuicios y deterioros que se puedan causar en la propiedad arrendada, sus servicios e instalaciones y en general, para responder al fiel cumplimiento de las estipulaciones de este contrato, el Arrendatario entrega en garantía al Arrendador en este acto, la suma de <strong>$@Model.MontoGarantiaDeArriendo</strong>, las que éste último se obliga a devolver debidamente reajustada dentro de los treinta días siguientes a la restitución de la propiedad arrendada, tomando en consideración el valor de la unidad de fomento al día del pago efectivo, quedando desde luego autorizado el Arrendador para descontar de la cantidad mencionada, el valor efectivo de los deterioros y perjuicios de cargo del Arrendatario que se hayan ocasionado en la propiedad, sus instalaciones o los indicados en el inventario, como asimismo, el valor de las cuentas de consumo pendientes. Si esta garantía no alcanzare a cubrir los gastos mencionados, que son de cuenta del Arrendatario, éste se obliga a pagarlos dentro de los diez días siguientes a la fecha en la cual se formule por escrito dicha cobranza.
+        </p>
+        <h4>12. RESTITUCIÓN DEL INMUEBLE.</h4>
+        <p>
+            La propiedad objeto de este contrato se entrega en buen estado de conservación y mantenimiento y el Arrendatario se obliga a restituirla inmediatamente que termine este contrato en el mismo estado, tomándose en consideración el deterioro ocasionado por el uso legítimo de ella. La entrega deberá hacerse mediante la desocupación total de la propiedad, poniéndola a disposición del Arrendador y entregándole las llaves. Además, deberá exhibirle los recibos que acrediten el pago, hasta el último día que ocupó el inmueble, de los gastos comunes o servicios especiales, como igualmente de los consumos de energía eléctrica, gas, agua, basura y otros similares no incluidos en los gastos comunes o servicios especiales.
+        </p>
+        <p>
+            En el evento que el Arrendatario no restituyere la propiedad en la fecha de término del arrendamiento, se aplicará lo estipulado en el inciso final de la cláusula 4.
+        </p>
+        <h4>13. OBLIGACIONES IMPUESTAS POR LA AUTORIDAD.</h4>
+        <p>
+            Serán de cargo del Arrendatario los gastos que pueda ocasionar el cumplimiento de órdenes o disposiciones que, en cualquier tiempo, pueda impartir la autoridad en razón del uso a que se destinará el inmueble, sean estas exigencias relativas a condiciones sanitarias, higiénicas, ambientales, municipales o reglamentarias.
+        </p>
+        <h4>14. DOMICILIO.</h4>
+        <p>
+            Para todos los efectos que deriven del presente contrato, las partes fijan su domicilio en la ciudad de Santiago, y se someten a la jurisdicción de sus Tribunales de Justicia.
+        </p>
+        <h4>15. OTRAS CONDICIONES.</h4>
+        <p>
+            El Arrendatario declara que todos los bienes muebles que ingrese, actualmente o en el futuro, al inmueble materia de este contrato son de su dominio y se encuentran libres de todo gravamen, prenda, prohibición o embargo.
+        </p>
+        <p>
+            Con el objeto de dar cumplimiento a la ley 19.628, sobre protección de datos de carácter personal, el Arrendatario faculta irrevocablemente al Arrendador o al administrador del inmueble arrendado, indistintamente, para que cualquiera de ellos pueda dar a conocer la morosidad en el pago de las rentas de arrendamiento, gastos comunes y consumos del inmueble arrendado, proporcionando dicha información a cualquier registro o banco de datos personales, con el objeto que sea divulgado, relevando el Arrendatario al Arrendador y al administrador del inmueble arrendado, de cualquier responsabilidad que se pudiera derivar al efecto.
+        </p>
+        <h4>16. CODEUDOR SOLIDARIO.</h4>
+        <p>
+            Presente a este acto don <strong>@Model.CodeudorSolidario.Nombre</strong>, de nacionalidad <strong>@Model.CodeudorSolidario.Nacionalidad</strong>, cédula de identidad N°<strong>@Model.CodeudorSolidario.CedulaIdentidad</strong>, estado civil <strong>@Model.CodeudorSolidario.EstadoCivil</strong>, domiciliado en <strong>@Model.CodeudorSolidario.Domicilio.NombreCalle</strong> N°<strong>@Model.CodeudorSolidario.Domicilio.NumeroCalle</strong>, comuna de <strong>@Model.CodeudorSolidario.Domicilio.Comuna</strong>, expone: que se constituyen en aval y codeudor solidario del Arrendatario respecto de todas las obligaciones que para éste emanan del presente contrato, aceptando desde luego y sin previa notificación las modificaciones que las partes puedan introducirle, sean en cuanto al monto de la renta, plazo u otras estipulaciones.
+        </p>
+        <h4>17. CODEUDOR SOLIDARIO.</h4>
+        <p>
+            El presente contrato se otorga en tres ejemplares del mismo tenor y data, quedando uno en poder de cada parte y el tercero en poder de Propins SpA.
+        </p>
+        <h4>18. FIRMANTES.</h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="theme-color" content="#000000" />
+    <base href="%PUBLIC_URL%/" />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Propins</title>
+
+    <!-- Global site tag (gtag.js) - Google maps api-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABvWong9QLVnSxCyQRBmk_ibR_XYR-QvI&libraries=places"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-146903316-1"
+    ></script>
+    <!--    <link-->
+    <!--            type="text/css"-->
+    <!--            rel="stylesheet"-->
+    <!--            href="ZoomCss/bootstrap.css"-->
+    <!--            crossorigin="anonymous"-->
+    <!--    />-->
+
+    <!-- <link
+      type="text/html"
+      href="node_modules/@zoomus/websdk/dist/css/bootstrap.css"
+      crossorigin="anonymous">-->
+
+    <!--    <style>-->
+    <!--        @import "node_modules/@zoomus/websdk/dist/css/bootstrap.css";-->
+    <!--    </style>-->
+    <link
+      type="text/html"
+      href="node_modules/@zoomus/websdk/dist/css/react-select.css"
+    />
+
+    <script
+      language="JavaScript"
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+
+    <!-- Start of Async Drift Code
+    <script>
+        "use strict";
+
+        !(function () {
+            var t = (window.driftt = window.drift = window.driftt || []);
+            if (!t.init) {
+                if (t.invoked)
+                    return void (
+                        window.console &&
+                        console.error &&
+                        console.error("Drift snippet included twice.")
+                    );
+                (t.invoked = !0),
+                    (t.methods = [
+                        "identify",
+                        "config",
+                        "track",
+                        "reset",
+                        "debug",
+                        "show",
+                        "ping",
+                        "page",
+                        "hide",
+                        "off",
+                        "on",
+                    ]),
+                    (t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }),
+                    t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }),
+                    (t.load = function (t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        (o.type = "text/javascript"),
+                            (o.async = !0),
+                            (o.crossorigin = "anonymous"),
+                            (o.src =
+                                "https://js.driftt.com/include/" + n + "/" + t + ".js");
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    });
+            }
+        })();
+        drift.SNIPPET_VERSION = "0.3.1";
+        drift.load("kpn3yxt67eby");
+    </script>
+     End of Async Drift Code -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+
+      gtag("config", "UA-146903316-1");
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!--
+    <noscript>
+      Vende tu casa online y en tiempo récord. Desde 0% de comisión.
+    </noscript>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=your-pixel-id-goes-here&ev=PageView&noscript=1"
+      />
+    </noscript>
+   
+    <meta
+      name="description"
+      content=" Vende tu casa online y en tiempo récord. Desde 0% de comisión."
+    />
+     -->
+  </body>
+</html>

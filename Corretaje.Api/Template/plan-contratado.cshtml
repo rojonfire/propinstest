@@ -1,0 +1,273 @@
+﻿@using Corretaje.Api.Dto.OrdenCompra
+
+@model OrdenDeCompraDto 
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<body style="backgound-color:white">
+
+
+<div class="mj-column-per-100 outlook-group-fix" style="background-color:white;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%">
+    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+        <tr>
+            <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                    <tbody>
+                    <tr>
+                        <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Logogris%402x.png" alt="LogoPropins" style="width:140px;height:40px;">
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+       
+    </table>
+</div>
+<body style="background-color: white;">
+<div style="background-color: white;">
+<div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+        <tr>
+            <td align="center" style="font-size:0px;padding:8px 0 0 0;word-break:break-word;">
+
+                <div style="font-family: OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:30px;font-weight:600;line-height:1.2;padding-top: 10px;padding-bottom: 10px;text-align:center;color:#134609;">
+                    ¡BIENVENIDO A PROPINS!
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div style="margin:0px auto;max-width:520px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+        <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+                <!--[if mso | IE]>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                    
+                    <tr>
+                    
+                    <td class="" style="vertical-align:top;width:520px;">
+                <![endif]-->
+                <div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                        <tbody>
+                        <tr>
+                            <td align="center" style="font-size:0px;padding:16px 16px 0 16px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                    <tbody>
+                                    <tr>
+                                        <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Bienvenido%402x.jpg" alt="ManoEscribiendo" style="border:0;border-radius:0px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px; " width="488">
+                                       
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--[if mso | IE]></td>
+                    
+                    </tr>
+                    
+                    </table>
+                <![endif]-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div style="margin:0px auto;max-width:520px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+
+        <tr>
+            <td align="left" style="font-size:0px;padding:8px 0 12px 0;word-break:break-word;">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;line-height:1.4;text-align:left;color: #000000;">
+                    Con fecha @Model.FechaEmision Has contratado:
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left " style="font-size:0px;padding-top:15px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                    <span style="color: #000000; font-weight:800; text-align: left;">PLAN:</span>
+                    <span style="color: #000000; text-align:right; ">@Model.TipoDePlan.ToUpper()</span>
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left" style="font-size:0px;padding:8px 0 16px 0;word-break:break-word;">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:16px;font-weight:800;line-height:1.4;text-align:center; ">
+                    <span style="color: #134609; ">UBICACIÓN DE LA PROPIEDAD</span>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td align="left " style="font-size:0px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                    <span style="color: #000000; font-weight:800; text-align: left;">TIPO DE PROPIEDAD:</span>
+                    <span style="color: #000000;">@Model.TipoPropiedad </span>
+
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td align="left " style="font-size:0px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;line-height:1.4;text-align: left;color:#8E8E92; ">
+                    <span style="color: #000000; font-weight:800; text-align: left;">DIRECCIÓN/CALLE:</span>
+                    <span style="color: #000000; ">@Model.Direccion?.Calle.Nombre</span>
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td align="left " style="font-size:0px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;line-height:1.4;text-align: left;color:#8E8E92; ">
+                    <span style="color: #000000; font-weight:800; text-align: left;">DIRECCIÓN/NÚMERO:</span>
+                    <span style="color: #000000; ">@Model.Direccion?.Calle.Numero</span>
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td align="left " style="font-size:0px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;line-height:1.4;text-align: left;color:#8E8E92; ">
+                    <span style="color: #000000; font-weight:800; text-align: left;">NºDEPARTAMENTO:</span>
+                    <span style="color: #000000;">@Model.Direccion?.NumeroDepartamento</span>
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left " style="font-size:0px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;line-height:1.4;text-align: left;color:#8E8E92; ">
+                    <span style="color: #000000; font-weight:800; text-align: left;">REGIÓN:</span>
+                    <span style="color: #000000;">@Model.Direccion?.RegionNombre</span>
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="left " style="font-size:0px;word-break:break-word; ">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;line-height:1.4;text-align: left;color:#8E8E92; ">
+                    <span style="color: #000000; font-weight:800; text-align: left;">COMUNA:</span>
+                    <span style="color: #000000;">@Model.Direccion?.ComunaNombre</span>
+                </div>
+                <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+            </td>
+        </tr>
+
+       
+
+        <tr>
+            <td align="left" style=" background-color:white;padding:8px 0 12px 0;word-break:break-word;">
+                <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;line-height:1.4;text-align:left;color: #000000;">
+                    @if (Model.ServiciosAdicionales.Count > 0)
+                    {
+                        @foreach (var servicioAdicional in Model.ServiciosAdicionales)
+                        {
+                            <tr>
+                                <td align="left" style="font-size:0px;padding:8px 0 16px 0;word-break:break-word;">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:16px;font-weight:800;line-height:1.4;text-align:center; ">
+                                        <span style="color: #134609;"> SERVICIOS ADICIONALES</span>
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left " style="font-size:0px;padding-top:15px;word-break:break-word; ">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                                        <span style="color: #000000; font-weight:800; text-align: left;">NOMBRE:</span>
+                                        <span style="color: #000000; text-align:right; ">@servicioAdicional.Nombre</span>
+                                    </div>
+                                    <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left " style="font-size:0px;padding-top:15px;word-break:break-word; ">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                                        <span style="color: #000000; font-weight:800; text-align: left;">TIPO MONEDA:</span>
+                                        <span style="color: #000000; text-align:right; ">@servicioAdicional.TipoMoneda</span>
+                                    </div>
+                                    <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left " style="font-size:0px;padding-top:15px;word-break:break-word; ">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                                        <span style="color: #000000; font-weight:800; text-align: left;">PRECIO UF:</span>
+                                        <span style="color: #000000; text-align:right; ">@servicioAdicional.Precio</span>
+                                    </div>
+                                    <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left " style="font-size:0px;padding-top:15px;word-break:break-word; ">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                                        <span style="color: #000000; font-weight:800; text-align: left;">VALOR TOTAL ADICIONALES:</span>
+                                        <span style="color: #000000; text-align:right; ">@Model.ServiciosAdicionales.Sum(x => x.Precio)</span>
+                                    </div>
+                                    <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg " alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left " style="font-size:0px;padding-top:15px;word-break:break-word; ">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size: 12px;;line-height:1.4;color:#8E8E92; ">
+
+                                        <span style="color: #000000; font-weight:800; text-align: left;">TOTAL SERVICIOS ADICIONALES:</span>
+                                        <span style="color: #000000; text-align:right; ">
+                                            UF @Model.TotalEnUf + IVA(@Math.Ceiling(Model.TotalEnPesoChilenoConIVA)pesos chilenos).
+                                        </span>
+                                    </div>
+                                    <img src="https://propiblobstorage.blob.core.windows.net/003372f3-a922-4e86-8c52-b6edcf7bb6c3/Li%E2%95%A0%C3%BCnea.jpg" alt="Linea " style="width: 500px; height: auto; position: center; padding-top: 15px;padding-bottom: 15px;">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="center" style="font-size:0px;padding:8px 0 12px 0;word-break:break-word;">
+                                    <div style="font-family:OpenSans, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:14px;font-weight:600;line-height:1.4;text-align:left;color: #000000;">
+                                        Agradecemos tu confianza,<br>Propins
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</body>
+

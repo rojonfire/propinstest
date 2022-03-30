@@ -1,0 +1,34 @@
+﻿@using Corretaje.Api.Dto.Agenda
+
+@model VisitaUsuarioEmailDto
+
+<div class="box-cont text-center">
+    <h2>Visita agendada</h2>
+    <p>
+        Se ha agendado una hora de visita para el día @Model.Fecha a las @Model.HoraInicio hrs.
+    </p>
+    <h3>Datos del visitante</h3>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombreUsuario</li>
+            <li><strong>R.U.T:</strong> @Model.Rut</li>
+            <li><strong>Teléfono</strong> @Model.Telefono</li>
+            <li><strong>E-mail:</strong> @Model.Email</li>
+        </ul>
+    </p>
+    <h3>Datos del propietario</h3>
+    <p>
+        <ul>
+            <li><strong>Don(a):</strong> @Model.NombreCliente</li>
+            <li><strong>R.U.T:</strong> @Model.RutCliente</li>
+            <li><strong>Teléfono</strong> @Model.TelefonoCliente</li>
+            <li><strong>E-mail:</strong> @Model.EmailCliente</li>
+        </ul>
+    </p>
+    <h3>Datos de la propiedad</h3>
+    <p>
+        <ul>
+            <li><strong>Dirección:</strong> @Model.Direccion</li>
+        </ul>
+    </p>
+</div>
