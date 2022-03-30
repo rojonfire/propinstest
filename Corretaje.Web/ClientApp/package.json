@@ -118,8 +118,8 @@
     "start": "rimraf ./build && react-scripts start",
     "dev": "set NODE_OPTIONS=--max_old_space_size=8192&&set REACT_APP_ENVIROMENT=DEV&&react-scripts build",
     "dev:unix": "REACT_APP_ENVIROMENT=DEV&&react-scripts build",
-    "qa": "set NODE_OPTIONS=--max_old_space_size=8192&&REACT_APP_ENVIROMENT=QA&&react-scripts build",
-    "build": "set NODE_OPTIONS=--max_old_space_size=8192&&REACT_APP_ENVIROMENT=PRODUCTION&&react-scripts build",
+    "qa": "react-scripts build",
+    "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/"
